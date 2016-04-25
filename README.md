@@ -1,6 +1,12 @@
 # 全栈工程师的黑魔法
 
  - [文档篇](./documents.md)
+ - DevOps
+ - 开发
+
+欢迎关注我的微信公众号
+
+![Phodal Wechat](http://articles.phodal.com/qrcode.jpg)
 
 License
 ---
