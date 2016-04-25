@@ -1,5 +1,19 @@
 
-​​![purple.png](./images/purple.png)
+
+DevOps
+===
+
+Nginx Pagespeed
+---
+
+Boom
+---
+
+GoAccess
+---
+
+Documents
+===
 
 Pandoc
 ---
