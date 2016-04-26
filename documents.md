@@ -94,11 +94,11 @@ Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipy
 
 **安装（使用pip）**
 
-    pip install jupyter
+    $ pip install jupyter
 
 **运行**
 
-    jupyter notebook
+    $ jupyter notebook
 
 官网：[Jupyter](https://jupyter.org/)
 
@@ -106,17 +106,17 @@ Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipy
 Gitbook
 ---
 
-Gitbook是一个命令行工具(node.js库)，使用Markdown语言，使用它可以轻松生成文档。
+Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇集成起来，生成一个静态网站，也可以输出为PDF等多种格式。
 
 ![gitbook](./images/gitbook.jpg)
 
 **安装（使用npm）**
 
-    pip install jupyter
+    $ npm install gitbook -g
 
 **使用**
 
-    gitbook init ＃ 初始化书籍目录
-    gitbook serve ＃ 运行
+    $ gitbook init ＃ 初始化书籍目录
+    $ gitbook serve ＃ 运行
 
 官网：[Gitbook](https://www.gitbook.com/)
