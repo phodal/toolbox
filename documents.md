@@ -20,14 +20,14 @@ XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Wo
 
 我最常用的就是：将md转化为workd及pdf。我的毕业论文及之前的几本电子书都是这么做的，它是一个命令行工具，安装方式：
 
- - Windows: choco install pandoc 
+ - Windows: choco install pandoc
  - Ubuntu/CentOS/OpenSUSE: apt-get intall pandoc 或者 yum install pandoc
  - Mac OS: brew install pandoc
 
 使用方式如下：
- 
+
       pandoc fullstack.md -o fullstack.docx
-     
+
 如果要转为PDF，则需要另外的一个工具——LaTeX
 
 Graphviz
@@ -42,7 +42,7 @@ Graphviz
 它让我最惊讶的是DOT语言，简直是以我们平时的用法来定义的。上面的图形的代码类似于这样的：
 
     home->products->widgets
-    
+
 又是一个让人惊呆的黑科技，这才是人类应该使用的语言。它可以支持PostScript，PDF，SVG，PNG等一系列的格式，用法
 
      dot -T png phodal.dot -o phodal.png
@@ -84,3 +84,39 @@ TeX是由是一个由美国计算机教授高德纳（Donald Ervin Knuth）编�
 LaTeX 建立在 TeX 之上的工具，它在TeX的基础上大大改善了易用性。对了，如果只是一般的用途的话，就没有必要拿去装逼了~。
 
 它也是工作于命令行上的工具。
+
+Jupyter Notebook
+---
+
+Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipython3.0之后新建为Jupyter项目。它支持Markdown、Python语言交互、R语言交互、图形显示、运行时间分析、LaTex公式，对于交互编程、数据分析和数据可视化非常有用。
+
+![Jupyter](./images/Jupyter.png)
+
+**安装（使用pip）**
+
+    $ pip install jupyter
+
+**运行**
+
+    $ jupyter notebook
+
+官网：[Jupyter](https://jupyter.org/)
+
+
+Gitbook
+---
+
+Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇集成起来，生成一个静态网站，也可以输出为PDF等多种格式。
+
+![gitbook](./images/gitbook.jpg)
+
+**安装（使用npm）**
+
+    $ npm install gitbook -g
+
+**使用**
+
+    $ gitbook init ＃ 初始化书籍目录
+    $ gitbook serve ＃ 运行
+
+官网：[Gitbook](https://www.gitbook.com/)
