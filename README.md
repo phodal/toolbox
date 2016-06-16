@@ -2,7 +2,7 @@
 
  - [文档篇](./documents.md)
  - [图形工具篇](./graphics.md)
- - [Chrome前端插件篇](./fe-plugins.md)
+ - [Chrome插件 前端工具篇](./fe-plugins.md)
  - DevOps
  - 微服务篇
  - 前端工具篇
