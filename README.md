@@ -2,8 +2,11 @@
 
  - [文档篇](./documents.md)
  - [图形工具篇](./graphics.md)
+ - [Chrome前端插件篇](./fe-plugins.md)
  - DevOps
- - 开发
+ - 微服务篇
+ - 前端工具篇
+ - 后台框架篇
 
 欢迎关注我的微信公众号
 
