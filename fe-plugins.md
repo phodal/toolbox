@@ -30,10 +30,12 @@ Postman
 XPath Helper
 ---
 
-![Chrome Postman](images/fe-plugins/xpath.jpg)
+![XPath Helper](images/fe-plugins/xpath.jpg)
 
-Analytics Debugger
+ObservePoint Tag Debugger
 ---
+
+![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
 
 Capture Webpage Screenshot Entirely
 ---
