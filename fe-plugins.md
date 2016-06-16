@@ -32,7 +32,7 @@ XPath Helper
 
 ![Chrome Postman](images/fe-plugins/xpath.jpg)
 
-ObservePoint Tag Debugger
+Analytics Debugger
 ---
 
 Capture Webpage Screenshot Entirely
