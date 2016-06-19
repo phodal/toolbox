@@ -8,14 +8,16 @@ Chrome DevTools
 
 ![Chrome DevTools](images/fe-plugins/dev-tool.jpg)
 
-每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。
-
- - 它可以模拟移动设备，模拟网络、模板分辨率、模拟。并在HTTP请求中带上相应的User Agent，方便我们调试。
+每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。除了正常的Debug功能，它可以模拟移动设备，模拟网络、模板分辨率、模拟，并在HTTP请求中带上相应的User Agent方便我们调试。
 
 Open SEO Stats
 ---
 
+顾名思义这是一个SEO状态查询工具，它可以让我们查看网站的SEO相关信息。也是一个非常棒的反诈骗软件，因为一个好的网站的Alexa Traffic Rank、PR以及Pages indexed（索引数）等等都会相对较高。
+
 ![Open SEO Stats](images/fe-plugins/seo-stats.jpg)
+
+除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。
 
 PageSpeed Insights
 ---
