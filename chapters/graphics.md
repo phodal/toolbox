@@ -121,7 +121,3 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 并且，它也是一个可以根据数据（GEOJSON，地理数据）生成图形的工具。
 
 ![vmap.jpg](http://articles.phodal.com/graphics/vmap.jpg)
-
-更多精彩内容欢迎关注我的微信公众号：Phodal
-
-![http://articles.phodal.com/qrcode.jpg](http://articles.phodal.com/qrcode.jpg)

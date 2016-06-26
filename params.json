@@ -1,6 +1,0 @@
-{
-  "name": "Toolbox",
-  "tagline": "Phodal's Toolbox",
-  "body": "# 全栈工程师的工具箱\r\n\r\n - [文档篇](./documents.md)\r\n - [图形工具篇](./graphics.md)\r\n - [Chrome插件 前端工具篇](./fe-plugins.md)\r\n - DevOps\r\n - 微服务篇\r\n - 前端工具篇\r\n - 后台框架篇\r\n - [设外篇](./devices.md)\r\n - [硬件篇](./hardware.md)\r\n\r\n欢迎关注我的微信公众号\r\n\r\n![Phodal Wechat](http://articles.phodal.com/qrcode.jpg)\r\n\r\nLicense\r\n---\r\n\r\nCC\r\n\r\n[![Phodal's Idea](http://brand.phodal.com/shields/idea-small.svg)](http://ideas.phodal.com/) [![待我代码编成,娶你为妻可好](http://brand.phodal.com/slogan/slogan.svg)](http://www.xuntayizhan.com/person/ji-ke-ai-qing-zhi-er-shi-dai-wo-dai-ma-bian-cheng-qu-ni-wei-qi-ke-hao-wan/)\r\n\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}

@@ -1,58 +1,318 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Toolbox by phodal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Toolbox</h1>
-      <h2 class="project-tagline">Phodal&#39;s Toolbox</h2>
-      <a href="https://github.com/phodal/toolbox" class="btn">View on GitHub</a>
-      <a href="https://github.com/phodal/toolbox/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/phodal/toolbox/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
-
-    <section class="main-content">
-      <h1>
-<a id="全栈工程师的工具箱" class="anchor" href="#%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>全栈工程师的工具箱</h1>
-
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Toolbox - </title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<p>
+<h1>一个全栈工程师的工具箱</h1>
+<p>Phodal Huang</p>
+</p>
+<div style="width:800px">
+<nav id="TOC">
 <ul>
-<li><a href="./documents.md">文档篇</a></li>
-<li><a href="./graphics.md">图形工具篇</a></li>
-<li><a href="./fe-plugins.md">Chrome插件 前端工具篇</a></li>
-<li>DevOps</li>
-<li>微服务篇</li>
-<li>前端工具篇</li>
-<li>后台框架篇</li>
-<li><a href="./devices.md">设外篇</a></li>
-<li><a href="./hardware.md">硬件篇</a></li>
+<li><a href="#devops">DevOps</a><ul>
+<li><a href="#nginx-pagespeed">Nginx Pagespeed</a></li>
+<li><a href="#boom">Boom</a></li>
+<li><a href="#goaccess">GoAccess</a></li>
+</ul></li>
+<li><a href="#外设篇">外设篇</a><ul>
+<li><a href="#带有自定义按钮的鼠标">带有自定义按钮的鼠标</a></li>
+<li><a href="#机械键盘">机械键盘</a></li>
+<li><a href="#机械键盘手托">机械键盘手托</a></li>
+<li><a href="#游戏鼠标线夹">游戏鼠标线夹</a></li>
+<li><a href="#笔记本支架折叠">笔记本支架折叠</a></li>
+<li><a href="#魔方插座">魔方插座</a></li>
+</ul></li>
+<li><a href="#文档篇">文档篇</a><ul>
+<li><a href="#pandoc">Pandoc</a></li>
+<li><a href="#graphviz">Graphviz</a></li>
+<li><a href="#imagemagick">ImageMagick</a></li>
+<li><a href="#tex-和-latex">TeX 和 Latex</a></li>
+<li><a href="#jupyter-notebook">Jupyter Notebook</a></li>
+<li><a href="#gitbook">Gitbook</a></li>
+</ul></li>
+<li><a href="#chrome插件-前端工具篇">Chrome插件 前端工具篇</a><ul>
+<li><a href="#chrome-devtools">Chrome DevTools</a></li>
+<li><a href="#open-seo-stats">Open SEO Stats</a></li>
+<li><a href="#pagespeed-insights">PageSpeed Insights</a></li>
+<li><a href="#postman">Postman</a></li>
+<li><a href="#xpath-helper">XPath Helper</a></li>
+<li><a href="#observepoint-tag-debugger">ObservePoint Tag Debugger</a></li>
+<li><a href="#capture-webpage-screenshot-entirely">Capture Webpage Screenshot Entirely</a></li>
+<li><a href="#amp-validator">AMP Validator</a></li>
+</ul></li>
+<li><a href="#程序员必知的七个图形工具">程序员必知的七个图形工具</a><ul>
+<li><a href="#流程图graphviz">流程图：Graphviz</a></li>
+<li><a href="#流程图-visio-vs-dia-vs-omnigraffle">流程图： Visio vs Dia vs OmnIGraffle</a></li>
+<li><a href="#在线流程图processon">在线流程图：Processon</a></li>
+<li><a href="#各种图-word和excel">各种图： Word和Excel</a></li>
+<li><a href="#脑图-xmind">脑图： XMind</a></li>
+<li><a href="#各种图d3.js">各种图：D3.js</a></li>
+<li><a href="#地图leaflet">地图：Leaflet</a></li>
+</ul></li>
+<li><a href="#硬件篇">硬件篇</a><ul>
+<li><a href="#raspberry-pi">Raspberry Pi</a></li>
+<li><a href="#arduino">Arduino</a><ul>
+<li><a href="#arduino-yun">Arduino Yun</a></li>
+<li><a href="#arduino-uno">Arduino Uno</a></li>
+<li><a href="#arduino-adk">Arduino ADK</a></li>
+<li><a href="#arduino-lilypad">Arduino Lilypad</a></li>
+</ul></li>
+<li><a href="#nodemcu">NodeMCU</a></li>
+<li><a href="#spark">Spark</a></li>
+</ul></li>
 </ul>
-
-<p>欢迎关注我的微信公众号</p>
-
-<p><img src="http://articles.phodal.com/qrcode.jpg" alt="Phodal Wechat"></p>
-
-<h2>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
-
-<p>CC</p>
-
-<p><a href="http://ideas.phodal.com/"><img src="http://brand.phodal.com/shields/idea-small.svg" alt="Phodal's Idea"></a> <a href="http://www.xuntayizhan.com/person/ji-ke-ai-qing-zhi-er-shi-dai-wo-dai-ma-bian-cheng-qu-ni-wei-qi-ke-hao-wan/"><img src="http://brand.phodal.com/slogan/slogan.svg" alt="待我代码编成,娶你为妻可好"></a></p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/phodal/toolbox">Toolbox</a> is maintained by <a href="https://github.com/phodal">phodal</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+</nav>
+<h1 id="devops">DevOps</h1>
+<h2 id="nginx-pagespeed">Nginx Pagespeed</h2>
+<h2 id="boom">Boom</h2>
+<h2 id="goaccess">GoAccess</h2>
+<h1 id="外设篇">外设篇</h1>
+<h2 id="带有自定义按钮的鼠标">带有自定义按钮的鼠标</h2>
+<figure>
+<img src="./images/devices/steelseries.jpg" alt="Steelseries" /><figcaption>Steelseries</figcaption>
+</figure>
+<h2 id="机械键盘">机械键盘</h2>
+<p>红轴</p>
+<h2 id="机械键盘手托">机械键盘手托</h2>
+<h2 id="游戏鼠标线夹">游戏鼠标线夹</h2>
+<h2 id="笔记本支架折叠">笔记本支架折叠</h2>
+<h2 id="魔方插座">魔方插座</h2>
+<h1 id="文档篇">文档篇</h1>
+<figure>
+<img src="./images/documents/documents.png" alt="Documents" /><figcaption>Documents</figcaption>
+</figure>
+<h2 id="pandoc">Pandoc</h2>
+<blockquote>
+<p>Pandoc是一个标记语言转换工具，可实现不同标记语言间的格式转换，堪称该领域中的“瑞士军刀”。</p>
+</blockquote>
+<p>可以将 markdown、 reStructuredText、 textile、 HTML、 DocBook、 LaTeX、 MediaWiki markup、 TWiki markup、 OPML、 Emacs Org-Mode、 Txt2Tags、 Microsoft Word docx、 LibreOffice ODT、 EPUB、 Haddock markup</p>
+<p>转化为</p>
+<p>XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Word docx、 OpenOffice/LibreOffice ODT、 OpenDocument XML、EPUB、DocBook、 GNU TexInfo、 Groff man pages、LaTeX、 ConTeXt、 LaTeX Beamer slides、PDF via LaTeX、Markdown、 reStructuredText、 AsciiDoc、 MediaWiki markup、 Emacs Org-Mode、 Textile</p>
+<p>上图</p>
+<figure>
+<img src="./images/documents/pandoc.png" alt="Pandoc" /><figcaption>Pandoc</figcaption>
+</figure>
+<p>我最常用的就是：将md转化为workd及pdf。我的毕业论文及之前的几本电子书都是这么做的，它是一个命令行工具，安装方式：</p>
+<ul>
+<li>Windows: choco install pandoc</li>
+<li>Ubuntu/CentOS/OpenSUSE: apt-get intall pandoc 或者 yum install pandoc</li>
+<li>Mac OS: brew install pandoc</li>
+</ul>
+<p>使用方式如下：</p>
+<pre><code>  pandoc fullstack.md -o fullstack.docx</code></pre>
+<p>如果要转为PDF，则需要另外的一个工具——LaTeX</p>
+<h2 id="graphviz">Graphviz</h2>
+<blockquote>
+<p>Graphviz （英文：Graph Visualization Software的缩写）是一个由AT&amp;T实验室启动的开源工具包，用于绘制DOT语言脚本描述的图形。它也提供了供其它软件使用的库。</p>
+</blockquote>
+<p>简单的来说，就是将代码转换为图形:</p>
+<figure>
+<img src="./images/documents/graphviz-example.png" alt="Graphviz" /><figcaption>Graphviz</figcaption>
+</figure>
+<p>它让我最惊讶的是DOT语言，简直是以我们平时的用法来定义的。上面的图形的代码类似于这样的：</p>
+<pre><code>home-&gt;products-&gt;widgets</code></pre>
+<p>又是一个让人惊呆的黑科技，这才是人类应该使用的语言。它可以支持PostScript，PDF，SVG，PNG等一系列的格式，用法</p>
+<pre><code> dot -T png phodal.dot -o phodal.png</code></pre>
+<p>简单、粗暴到没有朋友。</p>
+<h2 id="imagemagick">ImageMagick</h2>
+<blockquote>
+<p>ImageMagick (TM) 是一个免费的创建、编辑、合成图片的软件。它可以读取、转换、写入多种格式的图片。图片切割、颜色替换、各种效果的应用，图片的旋转、组合，文本，直线，多边形，椭圆，曲线，附加到图片伸展旋转。</p>
+</blockquote>
+<p>来自重点：可以支持超过两百多种格式。It can read and write images in a variety of formats (over 200) including PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG.</p>
+<p>它提供了一个命令行工具叫：<code>convert</code>，这可以自由地转换图片的形式，如：</p>
+<pre><code>convert image.jpg image.png</code></pre>
+<p>还可以加各种效果，如：</p>
+<figure>
+<img src="./images/documents/gausisan.jpg" alt="ImageMagick" /><figcaption>ImageMagick</figcaption>
+</figure>
+<p>顺便做个介绍：上面的这个人叫瑞典模特儿莱娜·瑟德贝里，是在刊于1972年11月号《花花公子》杂志上的一张裸体插图照片的一部分。<strong>她的脸部与裸露的肩部已经变成了事实上的工业标准。</strong></p>
+<p>又是一个简单、粗暴到没有朋友的工具。</p>
+<h2 id="tex-和-latex">TeX 和 Latex</h2>
+<p>TeX是由是一个由美国计算机教授高德纳（Donald Ervin Knuth）编写的功能强大的排版软件。顺便推荐一下他写的一本书：《计算机程序设计艺术》。因为：</p>
+<blockquote>
+<p>高德纳最早开始自行编写TEX的原因是当时十分粗糙的排版水平已经影响到他的巨著《计算机程序设计艺术》的印刷质量。他以典型的黑客思维模式，最终决定自行编写一个排版软件：TEX。他原本以为他只需要半年时间，在1978年下半年就能完成，但最终他用了超过十年时间，直到1989年TEX才最终停止修改。</p>
+</blockquote>
+<figure>
+<img src="./images/documents/aocp.jpg" alt="计算机程序设计艺术" /><figcaption>计算机程序设计艺术</figcaption>
+</figure>
+<p>这直接让我想起Martin Fowler在写《领域特定语言》里好像也是用DSL。Tex的最大优点是可以写出下面的这本复杂的公式：</p>
+<figure>
+<img src="./images/documents/formular.jpg" alt="formular" /><figcaption>formular</figcaption>
+</figure>
+<p>LaTeX 建立在 TeX 之上的工具，它在TeX的基础上大大改善了易用性。对了，如果只是一般的用途的话，就没有必要拿去装逼了~。</p>
+<p>它也是工作于命令行上的工具。</p>
+<h2 id="jupyter-notebook">Jupyter Notebook</h2>
+<p>Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipython3.0之后新建为Jupyter项目。它支持Markdown、Python语言交互、R语言交互、图形显示、运行时间分析、LaTex公式，对于交互编程、数据分析和数据可视化非常有用。</p>
+<figure>
+<img src="./images/documents/Jupyter.png" alt="Jupyter" /><figcaption>Jupyter</figcaption>
+</figure>
+<p><strong>安装（使用pip）</strong></p>
+<pre><code>$ pip install jupyter</code></pre>
+<p><strong>运行</strong></p>
+<pre><code>$ jupyter notebook</code></pre>
+<p>官网：<a href="https://jupyter.org/">Jupyter</a></p>
+<h2 id="gitbook">Gitbook</h2>
+<p>Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇集成起来，生成一个静态网站，也可以输出为PDF等多种格式。</p>
+<figure>
+<img src="./images/documents/gitbook.jpg" alt="gitbook" /><figcaption>gitbook</figcaption>
+</figure>
+<p><strong>安装（使用npm）</strong></p>
+<pre><code>$ npm install gitbook -g</code></pre>
+<p><strong>使用</strong></p>
+<pre><code>$ gitbook init ＃ 初始化书籍目录
+$ gitbook serve ＃ 运行</code></pre>
+<p>官网：<a href="https://www.gitbook.com/">Gitbook</a></p>
+<h1 id="chrome插件-前端工具篇">Chrome插件 前端工具篇</h1>
+<h2 id="chrome-devtools">Chrome DevTools</h2>
+<p>在我所用过的这些前端工具里，最常用、实用的就属Chrome自带的DevTools。通常情况下，我们只需要使用这个工具就可以完成大部分的工作了。</p>
+<figure>
+<img src="images/fe-plugins/dev-tool.jpg" alt="Chrome DevTools" /><figcaption>Chrome DevTools</figcaption>
+</figure>
+<p>每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。除了正常的Debug功能，它可以模拟移动设备，模拟网络、模板分辨率、模拟，并在HTTP请求中带上相应的User Agent方便我们调试。</p>
+<h2 id="open-seo-stats">Open SEO Stats</h2>
+<p>顾名思义这是一个SEO状态查询工具，它可以让我们查看网站的SEO相关信息。也是一个非常棒的反诈骗软件，因为一个好的网站的Alexa Traffic Rank、PR以及Pages indexed（索引数）等等都会相对较高。</p>
+<figure>
+<img src="images/fe-plugins/seo-stats.jpg" alt="Open SEO Stats" /><figcaption>Open SEO Stats</figcaption>
+</figure>
+<p>除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。</p>
+<h2 id="pagespeed-insights">PageSpeed Insights</h2>
+<figure>
+<img src="images/fe-plugins/pagespeed.jpg" alt="PageSpeed Insights" /><figcaption>PageSpeed Insights</figcaption>
+</figure>
+<h2 id="postman">Postman</h2>
+<figure>
+<img src="images/fe-plugins/postman.jpg" alt="Chrome Postman" /><figcaption>Chrome Postman</figcaption>
+</figure>
+<h2 id="xpath-helper">XPath Helper</h2>
+<figure>
+<img src="images/fe-plugins/xpath.jpg" alt="XPath Helper" /><figcaption>XPath Helper</figcaption>
+</figure>
+<h2 id="observepoint-tag-debugger">ObservePoint Tag Debugger</h2>
+<figure>
+<img src="images/fe-plugins/observerPoint.jpg" alt="ObservePoint Tag Debugger" /><figcaption>ObservePoint Tag Debugger</figcaption>
+</figure>
+<h2 id="capture-webpage-screenshot-entirely">Capture Webpage Screenshot Entirely</h2>
+<h2 id="amp-validator">AMP Validator</h2>
+<h1 id="程序员必知的七个图形工具">程序员必知的七个图形工具</h1>
+<p>在上一篇《全栈工程师的百宝箱：黑魔法之文档篇》我们介绍了一些文档工具，今天让我来分享一下，我常用的一些图形工具。</p>
+<h2 id="流程图graphviz">流程图：Graphviz</h2>
+<p>说到流程图还是再次提及一下，我们之前说到的<strong>Graphviz</strong> 。</p>
+<blockquote>
+<p>Graphviz （英文：Graph Visualization Software的缩写）是一个由AT&amp;T实验室启动的开源工具包，用于绘制DOT语言脚本描述的图形。它也提供了供其它软件使用的库。</p>
+</blockquote>
+<p>它的主要特点是代码生成图像，并且足够的简单。</p>
+<p>在我的那个“Web Developer 成长路线图”(GitHub: <a href="https://github.com/phodal/developer" class="uri">https://github.com/phodal/developer</a>)里，就是用这个工具生成下面这个复杂的图形。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/tree.png" alt="tree.png" /><figcaption>tree.png</figcaption>
+</figure>
+<p>而其代码特别简单——和我们平时表达的手法是一样的，即：</p>
+<pre><code>&quot;包管理&quot; -&gt; &quot;包发布&quot; -&gt; &quot;自动部署&quot;
+&quot;CLI&quot; -&gt; &quot;部署&quot;
+&quot;脚本语言(Bash,Perl,Ruby,Python etc)&quot; -&gt; &quot;部署&quot;
+&quot;脚本语言(Bash,Perl,Ruby,Python etc)&quot; -&gt; &quot;构建&quot;
+&quot;*nix&quot; -&gt; &quot;软件编译&quot; -&gt; &quot;部署&quot;
+&quot;构建&quot; -&gt; &quot;软件编译&quot;</code></pre>
+<p>Graphviz有一个大的优点和弱点是：自动生成，导致画线的时候很出现出问题。接着，我们就来看看手动画线的例子。</p>
+<h2 id="流程图-visio-vs-dia-vs-omnigraffle">流程图： Visio vs Dia vs OmnIGraffle</h2>
+<p>在Windows世界里，在这一类的工具里面最常见的算是Visio:</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/MS-Visio-flowchart.png" alt="MS-Visio-flowchart.png" /><figcaption>MS-Visio-flowchart.png</figcaption>
+</figure>
+<p>遗憾的是，它并不支持在Mac OS上使用。而且，它并不在我购买的Office 365套装里。</p>
+<p>在Mac世界里，最好的工具算是OmniGraffle，就是很贵——我们平时使用的是公司的Mac电脑，使用盗版软件是有法律风险的。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/Omnigrafflescreen.jpg" alt="Omnigrafflescreen.jpg" /><figcaption>Omnigrafflescreen.jpg</figcaption>
+</figure>
+<p>在GNU/Linux世界里，我们使用Dia。</p>
+<blockquote>
+<p>Dia 是开放源代码的流程图软件，是GNU计划的一部分，程序创立者是Alexander Larsson。Dia使用单一文件界面模式，类似于GIMP与Inkscape。 Dia将多种需求以模块化来设计，如流程图、网络图、电路图等。各模块之间的符号仍是可以通用的，并没有限制。</p>
+</blockquote>
+<figure>
+<img src="http://articles.phodal.com/graphics/dia_screenshot.png" alt="dia_screenshot.png" /><figcaption>dia_screenshot.png</figcaption>
+</figure>
+<p>顺便安利一下，我最喜欢的操作系统OpenSuSE——简洁、尾长、绿色。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/opensuse.jpg" alt="opensuse.jpg" /><figcaption>opensuse.jpg</figcaption>
+</figure>
+<p>OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制造。总的来说，会比Debian系的Debian和Ubunt，及RetHat系的CentOS及Fedora稳定、漂亮。</p>
+<p>令人遗憾的是这三个工具，我都用不了。Mac对X Windows的支持不是一般的差，于是我就需要别的替代工具。</p>
+<h2 id="在线流程图processon">在线流程图：Processon</h2>
+<p>这个工具还是相当好用，至少是在GxFxW内比较快——我之前使用过Creately、draw.io、Gliffy等等的一些工具，只是随着版图的扩展，很多地区都已经“xx”了。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/tlok.jpg" alt="tlok.jpg" /><figcaption>tlok.jpg</figcaption>
+</figure>
+<p>不过遗憾的是：他们没有给我广告费。</p>
+<blockquote>
+<p>ProcessOn是一个在线协作绘图平台，为用户提供最强大、易用的作图工具！支持在线创作流程图、BPMN、UML图、UI界面原型设计、iOS界面原型设计等。</p>
+</blockquote>
+<p>同样的，在我的那个“Developer进阶书单”（GitHub: <a href="https://github.com/phodal/booktree" class="uri">https://github.com/phodal/booktree</a>)中，就是用这个工具画出规规矩矩的线。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/BookTree.png" alt="BookTree.png" /><figcaption>BookTree.png</figcaption>
+</figure>
+<p>并且，它还是跨平台的。</p>
+<h2 id="各种图-word和excel">各种图： Word和Excel</h2>
+<p>由于翻译和写书的需要，我成了一个Office 365订阅用户。于是发现在Word等一系列的Office工具中，自带了一个SmartArt的工具：</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/smart-art.png" alt="smart-art.png" /><figcaption>smart-art.png</figcaption>
+</figure>
+<p>可以画出很多很有意思的图形，比如：</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/program_road.png" alt="编程之路.png" /><figcaption>编程之路.png</figcaption>
+</figure>
+<p>又或者是：</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/growth-lob.png" alt="growth-lob.png" /><figcaption>growth-lob.png</figcaption>
+</figure>
+<p>分分钟就能画一个的节奏。</p>
+<h2 id="脑图-xmind">脑图： XMind</h2>
+<p>我想这个一般人都是知道的。</p>
+<blockquote>
+<p>XMind思维导图软件被著名互联网媒体Lifehacker评选为“最佳头脑风暴和思维导图工具”及”最受欢迎的思维导图软件”。</p>
+</blockquote>
+<p>它有一个很大的优点是使用了全球最先进的Eclipse RCP 软件架构，支持跨平台使用。它有一个很大的缺点是使用了全球最先进的Eclipse RCP 软件架构，导致了有点卡。</p>
+<p>相比于流程图什么的，它只适合做脑图。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/banner_index.png" alt="banner_index.png" /><figcaption>banner_index.png</figcaption>
+</figure>
+<p>如果你还在使用Eclipse，那么你应该试试Intellij IDEA了。</p>
+<h2 id="各种图d3.js">各种图：D3.js</h2>
+<blockquote>
+<p>D3.js（D3或Data-Driven Documents）是一个用动态图形显示数据的JavaScript库，一个数据可视化的工具。</p>
+</blockquote>
+<p>与上面的工具相比，这个工具可能没有那么方便。但是，作为一个数据可视化工具，它不仅仅可以做出各种炫酷的图形。</p>
+<p>还可以做出一个技能树：</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/sherlock.png" alt="sherlock.png" /><figcaption>sherlock.png</figcaption>
+</figure>
+<p>这个项目的GitHub见：<a href="https://github.com/phodal/sherlock" class="uri">https://github.com/phodal/sherlock</a></p>
+<h2 id="地图leaflet">地图：Leaflet</h2>
+<blockquote>
+<p>Leaflet 是一个为建设移动设备友好的互动地图，而开发的现代的、开源的JavaScript 库。</p>
+</blockquote>
+<p>虽然它与上面的图形没有啥关系，但是它带了一个图字啊。与Google Map原生的API，或者OpenStreet相比，它最大的优点是对移动设备支持好。</p>
+<p>并且，它也是一个可以根据数据（GEOJSON，地理数据）生成图形的工具。</p>
+<figure>
+<img src="http://articles.phodal.com/graphics/vmap.jpg" alt="vmap.jpg" /><figcaption>vmap.jpg</figcaption>
+</figure>
+<h1 id="硬件篇">硬件篇</h1>
+<h2 id="raspberry-pi">Raspberry Pi</h2>
+<h2 id="arduino">Arduino</h2>
+<h3 id="arduino-yun">Arduino Yun</h3>
+<h3 id="arduino-uno">Arduino Uno</h3>
+<h3 id="arduino-adk">Arduino ADK</h3>
+<h3 id="arduino-lilypad">Arduino Lilypad</h3>
+<h2 id="nodemcu">NodeMCU</h2>
+<h2 id="spark">Spark</h2>
+</body>
 </html>

@@ -4,7 +4,7 @@
 带有自定义按钮的鼠标
 ---
 
-![Steelseries](images/steelseries.jpg)
+![Steelseries](./images/devices/steelseries.jpg)
 
 机械键盘
 ---
