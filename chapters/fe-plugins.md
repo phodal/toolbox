@@ -22,6 +22,8 @@ Open SEO Stats
 PageSpeed Insights
 ---
 
+这是一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。
+
 ![PageSpeed Insights](images/fe-plugins/pagespeed.jpg)
 
 Postman
@@ -38,7 +40,6 @@ ObservePoint Tag Debugger
 ---
 
 ![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
-
 Capture Webpage Screenshot Entirely
 ---
 
