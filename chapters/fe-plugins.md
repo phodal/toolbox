@@ -22,8 +22,6 @@ Open SEO Stats
 PageSpeed Insights
 ---
 
-
-
 这是Google的PageSpeed Insights的插件版（网页版见： [https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)），一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。我们所需要做的事情就是点击“分析”按钮，然后就坐等他分析完成。
 
 如下就是我博客的一个分析结果：
@@ -43,7 +41,44 @@ PageSpeed Insights
 除此，我们还可以使用命令行工具来对你的网页进行测试。
 
 [https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
-t
+
+安装：
+
+``` shell
+$ npm install --global psi
+```
+
+只需要执行下面的命令即可：
+
+``` shell
+psi http://www.example.com/
+```
+
+如我的博客的结果:
+
+``` shell
+--------------------------------------------------------
+
+URL:       phodal.com
+Strategy:  mobile
+Speed:     90
+Usability: 96
+
+CSS size                                   | 30.04 kB
+HTML size                                  | 11.8 kB
+Image size                                 | 41.08 kB
+JavaScript size                            | 28.07 kB
+CSS resources                              | 1
+Hosts                                      | 2
+JS resources                               | 1
+Resources                                  | 5
+Static resources                           | 3
+Total size of request bytes sent           | 695 B
+
+Leverage browser caching                   | 1.5
+Main resource server response time         | %
+```
+
 Postman
 ---
 
