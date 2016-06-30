@@ -82,6 +82,8 @@ Main resource server response time         | %
 Postman
 ---
 
+我相信这个软件，搞过Web开发的人都听过。
+
 ![Chrome Postman](images/fe-plugins/postman.jpg)
 
 同样的，你仍然可以使用命令行工具来测试它。
