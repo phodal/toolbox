@@ -22,14 +22,28 @@ Open SEO Stats
 PageSpeed Insights
 ---
 
-这是一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。
+
+
+这是Google的PageSpeed Insights的插件版（网页版见： [https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)），一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。我们所需要做的事情就是点击“分析”按钮，然后就坐等他分析完成。
+
+如下就是我博客的一个分析结果：
 
 ![PageSpeed Insights](images/fe-plugins/pagespeed.jpg)
 
-你还可以使用命令行工具来对你的网页进行测试。
+总体分数98分，看来我针对这个所说的东西进行优化的效果还不错。左边显示了我博客存在的一些问题，如：
+
+ - 没有压缩CSS
+ - 可以使用浏览器缓存
+ - 需要指定缓存验证工具
+ - 暂缓JavaScript解析
+ - 将查询字符从静态资源中删除
+
+等等的几个问题——这些已经都是小问题了。所以他们的重要等级是“低”，一般来说如果有一个等级是“高”整个评分就会特别低。
+
+除此，我们还可以使用命令行工具来对你的网页进行测试。
 
 [https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
-
+t
 Postman
 ---
 
