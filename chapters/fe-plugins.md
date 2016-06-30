@@ -26,10 +26,18 @@ PageSpeed Insights
 
 ![PageSpeed Insights](images/fe-plugins/pagespeed.jpg)
 
+你还可以使用命令行工具来对你的网页进行测试。
+
+![https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
+
 Postman
 ---
 
 ![Chrome Postman](images/fe-plugins/postman.jpg)
+
+同样的，你仍然可以使用命令行工具来测试它。
+
+![Newman](https://github.com/postmanlabs/newman)
 
 XPath Helper
 ---
