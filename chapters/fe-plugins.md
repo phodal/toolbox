@@ -28,7 +28,7 @@ PageSpeed Insights
 
 你还可以使用命令行工具来对你的网页进行测试。
 
-![https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
+[https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
 
 Postman
 ---
@@ -37,7 +37,7 @@ Postman
 
 同样的，你仍然可以使用命令行工具来测试它。
 
-![Newman](https://github.com/postmanlabs/newman)
+[Newman](https://github.com/postmanlabs/newman)
 
 XPath Helper
 ---
