@@ -1,4 +1,4 @@
-Chrome插件 前端工具篇
+Chrome插件篇
 ===
 
 Chrome DevTools

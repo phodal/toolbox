@@ -37,6 +37,110 @@ WordPress
 Ruby On Rails
 ---
 
+Chrome插件篇
+===
+
+Chrome DevTools
+---
+
+在我所用过的这些前端工具里，最常用、实用的就属Chrome自带的DevTools。通常情况下，我们只需要使用这个工具就可以完成大部分的工作了。
+
+![Chrome DevTools](images/fe-plugins/dev-tool.jpg)
+
+每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。除了正常的Debug功能，它可以模拟移动设备，模拟网络、模板分辨率、模拟，并在HTTP请求中带上相应的User Agent方便我们调试。
+
+Open SEO Stats
+---
+
+顾名思义这是一个SEO状态查询工具，它可以让我们查看网站的SEO相关信息。也是一个非常棒的反诈骗软件，因为一个好的网站的Alexa Traffic Rank、PR以及Pages indexed（索引数）等等都会相对较高。
+
+![Open SEO Stats](images/fe-plugins/seo-stats.jpg)
+
+除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。
+
+PageSpeed Insights
+---
+
+这是Google的PageSpeed Insights的插件版（网页版见： [https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)），一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。我们所需要做的事情就是点击“分析”按钮，然后就坐等他分析完成。
+
+如下就是我博客的一个分析结果：
+
+![PageSpeed Insights](images/fe-plugins/pagespeed.jpg)
+
+总体分数98分，看来我针对这个所说的东西进行优化的效果还不错。左边显示了我博客存在的一些问题，如：
+
+ - 没有压缩CSS
+ - 可以使用浏览器缓存
+ - 需要指定缓存验证工具
+ - 暂缓JavaScript解析
+ - 将查询字符从静态资源中删除
+
+等等的几个问题——这些已经都是小问题了。所以他们的重要等级是“低”，一般来说如果有一个等级是“高”整个评分就会特别低。
+
+除此，我们还可以使用命令行工具来对你的网页进行测试。
+
+[https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
+
+安装：
+
+``` shell
+$ npm install --global psi
+```
+
+只需要执行下面的命令即可：
+
+``` shell
+psi http://www.example.com/
+```
+
+如我的博客的结果:
+
+``` shell
+--------------------------------------------------------
+
+URL:       phodal.com
+Strategy:  mobile
+Speed:     90
+Usability: 96
+
+CSS size                                   | 30.04 kB
+HTML size                                  | 11.8 kB
+Image size                                 | 41.08 kB
+JavaScript size                            | 28.07 kB
+CSS resources                              | 1
+Hosts                                      | 2
+JS resources                               | 1
+Resources                                  | 5
+Static resources                           | 3
+Total size of request bytes sent           | 695 B
+
+Leverage browser caching                   | 1.5
+Main resource server response time         | %
+```
+
+Postman
+---
+
+我相信这个软件，搞过Web开发的人都听过。
+
+![Chrome Postman](images/fe-plugins/postman.jpg)
+
+同样的，你仍然可以使用命令行工具来测试它。
+
+[Newman](https://github.com/postmanlabs/newman)
+
+XPath Helper
+---
+
+![XPath Helper](images/fe-plugins/xpath.jpg)
+
+ObservePoint Tag Debugger
+---
+
+![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
+Capture Webpage Screenshot Entirely
+---
+
 CLI
 ===
 
@@ -200,110 +304,6 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
     $ gitbook serve ＃ 运行
 
 官网：[Gitbook](https://www.gitbook.com/)
-
-Chrome插件 前端工具篇
-===
-
-Chrome DevTools
----
-
-在我所用过的这些前端工具里，最常用、实用的就属Chrome自带的DevTools。通常情况下，我们只需要使用这个工具就可以完成大部分的工作了。
-
-![Chrome DevTools](images/fe-plugins/dev-tool.jpg)
-
-每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。除了正常的Debug功能，它可以模拟移动设备，模拟网络、模板分辨率、模拟，并在HTTP请求中带上相应的User Agent方便我们调试。
-
-Open SEO Stats
----
-
-顾名思义这是一个SEO状态查询工具，它可以让我们查看网站的SEO相关信息。也是一个非常棒的反诈骗软件，因为一个好的网站的Alexa Traffic Rank、PR以及Pages indexed（索引数）等等都会相对较高。
-
-![Open SEO Stats](images/fe-plugins/seo-stats.jpg)
-
-除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。
-
-PageSpeed Insights
----
-
-这是Google的PageSpeed Insights的插件版（网页版见： [https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)），一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。我们所需要做的事情就是点击“分析”按钮，然后就坐等他分析完成。
-
-如下就是我博客的一个分析结果：
-
-![PageSpeed Insights](images/fe-plugins/pagespeed.jpg)
-
-总体分数98分，看来我针对这个所说的东西进行优化的效果还不错。左边显示了我博客存在的一些问题，如：
-
- - 没有压缩CSS
- - 可以使用浏览器缓存
- - 需要指定缓存验证工具
- - 暂缓JavaScript解析
- - 将查询字符从静态资源中删除
-
-等等的几个问题——这些已经都是小问题了。所以他们的重要等级是“低”，一般来说如果有一个等级是“高”整个评分就会特别低。
-
-除此，我们还可以使用命令行工具来对你的网页进行测试。
-
-[https://github.com/addyosmani/psi](https://github.com/addyosmani/psi)
-
-安装：
-
-``` shell
-$ npm install --global psi
-```
-
-只需要执行下面的命令即可：
-
-``` shell
-psi http://www.example.com/
-```
-
-如我的博客的结果:
-
-``` shell
---------------------------------------------------------
-
-URL:       phodal.com
-Strategy:  mobile
-Speed:     90
-Usability: 96
-
-CSS size                                   | 30.04 kB
-HTML size                                  | 11.8 kB
-Image size                                 | 41.08 kB
-JavaScript size                            | 28.07 kB
-CSS resources                              | 1
-Hosts                                      | 2
-JS resources                               | 1
-Resources                                  | 5
-Static resources                           | 3
-Total size of request bytes sent           | 695 B
-
-Leverage browser caching                   | 1.5
-Main resource server response time         | %
-```
-
-Postman
----
-
-我相信这个软件，搞过Web开发的人都听过。
-
-![Chrome Postman](images/fe-plugins/postman.jpg)
-
-同样的，你仍然可以使用命令行工具来测试它。
-
-[Newman](https://github.com/postmanlabs/newman)
-
-XPath Helper
----
-
-![XPath Helper](images/fe-plugins/xpath.jpg)
-
-ObservePoint Tag Debugger
----
-
-![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
-Capture Webpage Screenshot Entirely
----
 
 程序员必知的七个图形工具
 ===
