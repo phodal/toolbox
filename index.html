@@ -34,6 +34,10 @@
 <li><a href="#wordpress">WordPress</a></li>
 <li><a href="#ruby-on-rails">Ruby On Rails</a></li>
 </ul></li>
+<li><a href="#cli">CLI</a><ul>
+<li><a href="#tree">tree</a></li>
+<li><a href="#sl">sl</a></li>
+</ul></li>
 <li><a href="#外设篇">外设篇</a><ul>
 <li><a href="#带有自定义按钮的鼠标">带有自定义按钮的鼠标</a></li>
 <li><a href="#机械键盘">机械键盘</a></li>
@@ -57,6 +61,7 @@
 <li><a href="#postman-1">Postman</a></li>
 <li><a href="#xpath-helper">XPath Helper</a></li>
 <li><a href="#observepoint-tag-debugger">ObservePoint Tag Debugger</a></li>
+<li><a href="#capture-webpage-screenshot-entirely">Capture Webpage Screenshot Entirely</a></li>
 <li><a href="#amp-validator">AMP Validator</a></li>
 </ul></li>
 <li><a href="#程序员必知的七个图形工具">程序员必知的七个图形工具</a><ul>
@@ -98,6 +103,12 @@
 <h2 id="express">Express</h2>
 <h2 id="wordpress">WordPress</h2>
 <h2 id="ruby-on-rails">Ruby On Rails</h2>
+<h1 id="cli">CLI</h1>
+<h2 id="tree">tree</h2>
+<h2 id="sl">sl</h2>
+<figure>
+<img src="./images/cli/sl-tool.jpg" alt="SL" /><figcaption>SL</figcaption>
+</figure>
 <h1 id="外设篇">外设篇</h1>
 <h2 id="带有自定义按钮的鼠标">带有自定义按钮的鼠标</h2>
 <figure>
@@ -208,20 +219,63 @@ $ gitbook serve ＃ 运行</code></pre>
 </figure>
 <p>除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。</p>
 <h2 id="pagespeed-insights">PageSpeed Insights</h2>
-<p>这是一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。</p>
+<p>这是Google的PageSpeed Insights的插件版（网页版见： <a href="https://developers.google.com/speed/pagespeed/insights/" class="uri">https://developers.google.com/speed/pagespeed/insights/</a>），一个非常棒的网页优化工具，有了它就可以让我们轻松对网页进行优化。我们所需要做的事情就是点击“分析”按钮，然后就坐等他分析完成。</p>
+<p>如下就是我博客的一个分析结果：</p>
 <figure>
 <img src="images/fe-plugins/pagespeed.jpg" alt="PageSpeed Insights" /><figcaption>PageSpeed Insights</figcaption>
 </figure>
+<p>总体分数98分，看来我针对这个所说的东西进行优化的效果还不错。左边显示了我博客存在的一些问题，如：</p>
+<ul>
+<li>没有压缩CSS</li>
+<li>可以使用浏览器缓存</li>
+<li>需要指定缓存验证工具</li>
+<li>暂缓JavaScript解析</li>
+<li>将查询字符从静态资源中删除</li>
+</ul>
+<p>等等的几个问题——这些已经都是小问题了。所以他们的重要等级是“低”，一般来说如果有一个等级是“高”整个评分就会特别低。</p>
+<p>除此，我们还可以使用命令行工具来对你的网页进行测试。</p>
+<p><a href="https://github.com/addyosmani/psi" class="uri">https://github.com/addyosmani/psi</a></p>
+<p>安装：</p>
+<pre class="shell"><code>$ npm install --global psi</code></pre>
+<p>只需要执行下面的命令即可：</p>
+<pre class="shell"><code>psi http://www.example.com/</code></pre>
+<p>如我的博客的结果:</p>
+<pre class="shell"><code>--------------------------------------------------------
+
+URL:       phodal.com
+Strategy:  mobile
+Speed:     90
+Usability: 96
+
+CSS size                                   | 30.04 kB
+HTML size                                  | 11.8 kB
+Image size                                 | 41.08 kB
+JavaScript size                            | 28.07 kB
+CSS resources                              | 1
+Hosts                                      | 2
+JS resources                               | 1
+Resources                                  | 5
+Static resources                           | 3
+Total size of request bytes sent           | 695 B
+
+Leverage browser caching                   | 1.5
+Main resource server response time         | %</code></pre>
 <h2 id="postman-1">Postman</h2>
+<p>我相信这个软件，搞过Web开发的人都听过。</p>
 <figure>
 <img src="images/fe-plugins/postman.jpg" alt="Chrome Postman" /><figcaption>Chrome Postman</figcaption>
 </figure>
+<p>同样的，你仍然可以使用命令行工具来测试它。</p>
+<p><a href="https://github.com/postmanlabs/newman">Newman</a></p>
 <h2 id="xpath-helper">XPath Helper</h2>
 <figure>
 <img src="images/fe-plugins/xpath.jpg" alt="XPath Helper" /><figcaption>XPath Helper</figcaption>
 </figure>
 <h2 id="observepoint-tag-debugger">ObservePoint Tag Debugger</h2>
-<p><img src="images/fe-plugins/observerPoint.jpg" alt="ObservePoint Tag Debugger" /> Capture Webpage Screenshot Entirely —</p>
+<figure>
+<img src="images/fe-plugins/observerPoint.jpg" alt="ObservePoint Tag Debugger" /><figcaption>ObservePoint Tag Debugger</figcaption>
+</figure>
+<h2 id="capture-webpage-screenshot-entirely">Capture Webpage Screenshot Entirely</h2>
 <h2 id="amp-validator">AMP Validator</h2>
 <h1 id="程序员必知的七个图形工具">程序员必知的七个图形工具</h1>
 <p>在上一篇《全栈工程师的百宝箱：黑魔法之文档篇》我们介绍了一些文档工具，今天让我来分享一下，我常用的一些图形工具。</p>
