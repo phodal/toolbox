@@ -99,9 +99,5 @@ ObservePoint Tag Debugger
 ---
 
 ![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
-
 Capture Webpage Screenshot Entirely
----
-
-AMP Validator
 ---

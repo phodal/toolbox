@@ -49,6 +49,9 @@ sl
 
 ![SL](./images/cli/sl-tool.jpg)
 
+curl
+---
+
 外设篇
 ===
 
@@ -299,11 +302,7 @@ ObservePoint Tag Debugger
 ---
 
 ![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
-
 Capture Webpage Screenshot Entirely
----
-
-AMP Validator
 ---
 
 程序员必知的七个图形工具
