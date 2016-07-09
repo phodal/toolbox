@@ -1,5 +1,5 @@
 include_dir=build
-source=""chapters/documents.md chapters/graphics.md chapters/chrome-plugins.md chapters/devices.md chapters/ops.md chapters/hardware.md chapters/api.md chapters/cli.md chapters/backend.md""
+source=""chapters/documents.md chapters/graphics.md chapters/chrome-plugins.md chapters/devices.md chapters/ops.md chapters/hardware.md chapters/api.md chapters/cli.md chapters/backend.md chapters/science.md""
 title='Toolbox'
 filename='ebook'
 
