@@ -327,6 +327,8 @@ Leverage browser caching                   | 1.5
 Main resource server response time         | %
 ```
 
+再依据不同的结果对网页进化优化，不过它有一个前提是它并不适合SPA（单页面）应用。
+
 Postman
 ---
 
