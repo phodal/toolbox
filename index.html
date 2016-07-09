@@ -375,11 +375,36 @@ Main resource server response time         | %</code></pre>
 <h2 id="swagger">Swagger</h2>
 <h1 id="cli">CLI</h1>
 <h2 id="tree">tree</h2>
+<pre class="shell"><code>chapters
+├── api.md
+├── backend.md
+├── chrome-plugins.md
+├── cli.md
+├── devices.md
+├── documents.md
+├── graphics.md
+├── hardware.md
+└── ops.md
+
+0 directories, 9 files</code></pre>
 <h2 id="sl">sl</h2>
 <figure>
 <img src="./images/cli/sl-tool.jpg" alt="SL" /><figcaption>SL</figcaption>
 </figure>
 <h2 id="curl">curl</h2>
+<pre class="shell"><code>curl -I -s -A &#39;Googlebot&#39; www.phodal.com
+HTTP/1.1 200 OK
+Server: mokcy/0.17.9
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Language, Cookie
+Content-Language: en
+X-UA-Compatible: IE=Edge,chrome=1
+Date: Thu, 09 Apr 2015 14:39:11 GMT
+X-Page-Speed: Powered By Phodal
+Cache-Control: max-age=0, no-cache</code></pre>
+<pre class="shell"><code>curl --data &quot;_method=PUT&amp;led1=1&amp;sensors1=22&amp;sensors2=12&amp;temperature=14&quot; http://b.phodal.com/athome/1</code></pre>
 <h1 id="backend">Backend</h1>
 <h2 id="spring">Spring</h2>
 <h2 id="spring-boot">Spring Boot</h2>
