@@ -355,15 +355,16 @@ Capture Webpage Screenshot Entirely
 外设篇
 ===
 
-带有自定义按钮的鼠标
+自定义按钮的鼠标
 ---
 
 ![Steelseries](./images/devices/steelseries.jpg)
 
-机械键盘
+厚的鼠标垫
 ---
 
-红轴
+机械键盘
+---
 
 机械键盘手托
 ---
@@ -374,9 +375,11 @@ Capture Webpage Screenshot Entirely
 笔记本支架折叠
 ---
 
-魔方插座 
+魔方插座
 ---
 
+Kindle
+---
 
 DevOps
 ======
