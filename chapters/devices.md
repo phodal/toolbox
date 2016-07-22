@@ -4,7 +4,7 @@
 自定义按钮的鼠标
 ---
 
-![Steelseries](./images/devices/steelseries.jpg)
+![Steelseries](http://articles.phodal.com/images/devices/steelseries.jpg)
 
 厚的鼠标垫
 ---

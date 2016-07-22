@@ -2,7 +2,7 @@
 文档篇
 ===
 
-![Documents](./images/documents/documents.png)
+![Documents](http://articles.phodal.com/images/documents/documents.png)
 
 Pandoc
 ---
@@ -17,7 +17,7 @@ XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Wo
 
 上图
 
-![Pandoc](./images/documents/pandoc.png)
+![Pandoc](http://articles.phodal.com/images/documents/pandoc.png)
 
 我最常用的就是：将md转化为workd及pdf。我的毕业论文及之前的几本电子书都是这么做的，它是一个命令行工具，安装方式：
 
@@ -38,7 +38,7 @@ Graphviz
 
 简单的来说，就是将代码转换为图形:
 
-![Graphviz](./images/documents/graphviz-example.png)
+![Graphviz](http://articles.phodal.com/images/documents/graphviz-example.png)
 
 它让我最惊讶的是DOT语言，简直是以我们平时的用法来定义的。上面的图形的代码类似于这样的：
 
@@ -63,7 +63,7 @@ ImageMagick
 
 还可以加各种效果，如：
 
-![ImageMagick](./images/documents/gausisan.jpg)
+![ImageMagick](http://articles.phodal.com/images/documents/gausisan.jpg)
 
 顺便做个介绍：上面的这个人叫瑞典模特儿莱娜·瑟德贝里，是在刊于1972年11月号《花花公子》杂志上的一张裸体插图照片的一部分。**她的脸部与裸露的肩部已经变成了事实上的工业标准。**
 
@@ -76,11 +76,11 @@ TeX是由是一个由美国计算机教授高德纳（Donald Ervin Knuth）编�
 
 > 高德纳最早开始自行编写TEX的原因是当时十分粗糙的排版水平已经影响到他的巨著《计算机程序设计艺术》的印刷质量。他以典型的黑客思维模式，最终决定自行编写一个排版软件：TEX。他原本以为他只需要半年时间，在1978年下半年就能完成，但最终他用了超过十年时间，直到1989年TEX才最终停止修改。
 
-![计算机程序设计艺术](./images/documents/aocp.jpg)
+![计算机程序设计艺术](http://articles.phodal.com/images/documents/aocp.jpg)
 
 这直接让我想起Martin Fowler在写《领域特定语言》里好像也是用DSL。Tex的最大优点是可以写出下面的这本复杂的公式：
 
-![formular](./images/documents/formular.jpg)
+![formular](http://articles.phodal.com/images/documents/formular.jpg)
 
 LaTeX 建立在 TeX 之上的工具，它在TeX的基础上大大改善了易用性。对了，如果只是一般的用途的话，就没有必要拿去装逼了~。
 
@@ -91,7 +91,7 @@ Jupyter Notebook
 
 Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipython3.0之后新建为Jupyter项目。它支持Markdown、Python语言交互、R语言交互、图形显示、运行时间分析、LaTex公式，对于交互编程、数据分析和数据可视化非常有用。
 
-![Jupyter](./images/documents/Jupyter.png)
+![Jupyter](http://articles.phodal.com/images/documents/Jupyter.png)
 
 **安装（使用pip）**
 
@@ -109,7 +109,7 @@ Gitbook
 
 Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇集成起来，生成一个静态网站，也可以输出为PDF等多种格式。
 
-![gitbook](./images/documents/gitbook.jpg)
+![gitbook](http://articles.phodal.com/images/documents/gitbook.jpg)
 
 **安装（使用npm）**
 
@@ -254,7 +254,7 @@ Chrome DevTools
 
 在我所用过的这些前端工具里，最常用、实用的就属Chrome自带的DevTools。通常情况下，我们只需要使用这个工具就可以完成大部分的工作了。
 
-![Chrome DevTools](images/fe-plugins/dev-tool.jpg)
+![Chrome DevTools](http://articles.phodal.com/images/fe-plugins/dev-tool.jpg)
 
 每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。除了正常的Debug功能，它可以模拟移动设备，模拟网络、模板分辨率、模拟，并在HTTP请求中带上相应的User Agent方便我们调试。
 
@@ -263,7 +263,7 @@ Open SEO Stats
 
 顾名思义这是一个SEO状态查询工具，它可以让我们查看网站的SEO相关信息。也是一个非常棒的反诈骗软件，因为一个好的网站的Alexa Traffic Rank、PR以及Pages indexed（索引数）等等都会相对较高。
 
-![Open SEO Stats](images/fe-plugins/seo-stats.jpg)
+![Open SEO Stats](http://articles.phodal.com/images/fe-plugins/seo-stats.jpg)
 
 除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。
 
@@ -274,7 +274,7 @@ PageSpeed Insights
 
 如下就是我博客的一个分析结果：
 
-![PageSpeed Insights](images/fe-plugins/pagespeed.jpg)
+![PageSpeed Insights](http://articles.phodal.com/images/fe-plugins/pagespeed.jpg)
 
 总体分数98分，看来我针对这个所说的东西进行优化的效果还不错。左边显示了我博客存在的一些问题，如：
 
@@ -334,7 +334,7 @@ Postman
 
 我相信这个软件，搞过Web开发的人都听过。
 
-![Chrome Postman](images/fe-plugins/postman.jpg)
+![Chrome Postman](http://articles.phodal.com/images/fe-plugins/postman.jpg)
 
 同样的，你仍然可以使用命令行工具来测试它。
 
@@ -343,12 +343,12 @@ Postman
 XPath Helper
 ---
 
-![XPath Helper](images/fe-plugins/xpath.jpg)
+![XPath Helper](http://articles.phodal.com/images/fe-plugins/xpath.jpg)
 
 ObservePoint Tag Debugger
 ---
 
-![ObservePoint Tag Debugger](images/fe-plugins/observerPoint.jpg)
+![ObservePoint Tag Debugger](http://articles.phodal.com/images/fe-plugins/observerPoint.jpg)
 Capture Webpage Screenshot Entirely
 ---
 
@@ -358,7 +358,7 @@ Capture Webpage Screenshot Entirely
 自定义按钮的鼠标
 ---
 
-![Steelseries](./images/devices/steelseries.jpg)
+![Steelseries](http://articles.phodal.com/images/devices/steelseries.jpg)
 
 厚的鼠标垫
 ---
