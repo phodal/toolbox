@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+        	"title": "API篇",
+        	"path": "chapters/api.md"
+        },
+        {
+        	"title": "后台篇",
+        	"path": "chapters/backend.md"
+        },
+        {
+        	"title": "Chrome插件篇",
+        	"path": "chapters/chrome-plugins.md"
+        },
+        {
+        	"title": "命令行工具篇",
+        	"path": "chapters/cli.md"
+        },
+        {
+        	"title": "外设篇",
+        	"path": "chapters/devices.md"
+        },
+        {
+        	"title": "文档篇",
+        	"path": "chapters/documents.md"
+        },
+        {
+        	"title": "图形工具篇",
+        	"path": "chapters/graphics.md"
+        },
+        {
+        	"title": "硬件篇",
+        	"path": "chapters/hardware.md"
+        },
+        {
+        	"title": "DevOps篇",
+        	"path": "chapters/ops.md"
+        },
+        {
+        	"title": "科学工具篇",
+        	"path": "chapters/science.md"
+        }
+    ],
+    "source": "http://toolbox.phodal.com/"
+}
