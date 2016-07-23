@@ -156,13 +156,13 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 在Windows世界里，在这一类的工具里面最常见的算是Visio:
 
-![MS-Visio-flowchart.png](http://toolbox.phodal.com/images/graphics/MS-Visio-flowchart.png)
+![MS-Visio-flowchart.png](http://toolbox.phodal.com/images/graphics/visio.png)
 
 遗憾的是，它并不支持在Mac OS上使用。而且，它并不在我购买的Office 365套装里。
 
 在Mac世界里，最好的工具算是OmniGraffle，就是很贵——我们平时使用的是公司的Mac电脑，使用盗版软件是有法律风险的。
 
-![Omnigrafflescreen.jpg](http://toolbox.phodal.com/images/graphics/Omnigrafflescreen.jpg)
+![Omnigrafflescreen.jpg](http://toolbox.phodal.com/images/graphics/omnigraffle.jpg)
 
 在GNU/Linux世界里，我们使用Dia。
 
@@ -206,7 +206,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 又或者是：
 
-![growth-lob.png](http://toolbox.phodal.com/images/graphics/growth-lob.png)
+![growth-lob.jpg](http://toolbox.phodal.com/images/graphics/growth-lob.jpg)
 
 分分钟就能画一个的节奏。
 

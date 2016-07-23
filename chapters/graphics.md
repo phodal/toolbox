@@ -82,7 +82,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 又或者是：
 
-![growth-lob.png](http://toolbox.phodal.com/images/graphics/growth-lob.png)
+![growth-lob.jpg](http://toolbox.phodal.com/images/graphics/growth-lob.jpg)
 
 分分钟就能画一个的节奏。
 
