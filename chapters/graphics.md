@@ -32,13 +32,13 @@
 
 在Windows世界里，在这一类的工具里面最常见的算是Visio:
 
-![MS-Visio-flowchart.png](http://toolbox.phodal.com/images/graphics/MS-Visio-flowchart.png)
+![MS-Visio-flowchart.png](http://toolbox.phodal.com/images/graphics/visio.png)
 
 遗憾的是，它并不支持在Mac OS上使用。而且，它并不在我购买的Office 365套装里。
 
 在Mac世界里，最好的工具算是OmniGraffle，就是很贵——我们平时使用的是公司的Mac电脑，使用盗版软件是有法律风险的。
 
-![Omnigrafflescreen.jpg](http://toolbox.phodal.com/images/graphics/Omnigrafflescreen.jpg)
+![Omnigrafflescreen.jpg](http://toolbox.phodal.com/images/graphics/omnigraffle.jpg)
 
 在GNU/Linux世界里，我们使用Dia。
 
