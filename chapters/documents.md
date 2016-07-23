@@ -1,7 +1,7 @@
 文档篇
 ===
 
-![Documents](http://articles.phodal.com/images/documents/documents.png)
+![Documents](http://toolbox.phodal.com/images/documents/documents.png)
 
 Pandoc
 ---
@@ -16,7 +16,7 @@ XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Wo
 
 上图
 
-![Pandoc](http://articles.phodal.com/images/documents/pandoc.png)
+![Pandoc](http://toolbox.phodal.com/images/documents/pandoc.png)
 
 我最常用的就是：将md转化为workd及pdf。我的毕业论文及之前的几本电子书都是这么做的，它是一个命令行工具，安装方式：
 
@@ -37,7 +37,7 @@ Graphviz
 
 简单的来说，就是将代码转换为图形:
 
-![Graphviz](http://articles.phodal.com/images/documents/graphviz-example.png)
+![Graphviz](http://toolbox.phodal.com/images/documents/graphviz-example.png)
 
 它让我最惊讶的是DOT语言，简直是以我们平时的用法来定义的。上面的图形的代码类似于这样的：
 
@@ -62,7 +62,7 @@ ImageMagick
 
 还可以加各种效果，如：
 
-![ImageMagick](http://articles.phodal.com/images/documents/gausisan.jpg)
+![ImageMagick](http://toolbox.phodal.com/images/documents/gausisan.jpg)
 
 顺便做个介绍：上面的这个人叫瑞典模特儿莱娜·瑟德贝里，是在刊于1972年11月号《花花公子》杂志上的一张裸体插图照片的一部分。**她的脸部与裸露的肩部已经变成了事实上的工业标准。**
 
@@ -75,11 +75,11 @@ TeX是由是一个由美国计算机教授高德纳（Donald Ervin Knuth）编�
 
 > 高德纳最早开始自行编写TEX的原因是当时十分粗糙的排版水平已经影响到他的巨著《计算机程序设计艺术》的印刷质量。他以典型的黑客思维模式，最终决定自行编写一个排版软件：TEX。他原本以为他只需要半年时间，在1978年下半年就能完成，但最终他用了超过十年时间，直到1989年TEX才最终停止修改。
 
-![计算机程序设计艺术](http://articles.phodal.com/images/documents/aocp.jpg)
+![计算机程序设计艺术](http://toolbox.phodal.com/images/documents/aocp.jpg)
 
 这直接让我想起Martin Fowler在写《领域特定语言》里好像也是用DSL。Tex的最大优点是可以写出下面的这本复杂的公式：
 
-![formular](http://articles.phodal.com/images/documents/formular.jpg)
+![formular](http://toolbox.phodal.com/images/documents/formular.jpg)
 
 LaTeX 建立在 TeX 之上的工具，它在TeX的基础上大大改善了易用性。对了，如果只是一般的用途的话，就没有必要拿去装逼了~。
 
@@ -90,7 +90,7 @@ Jupyter Notebook
 
 Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipython3.0之后新建为Jupyter项目。它支持Markdown、Python语言交互、R语言交互、图形显示、运行时间分析、LaTex公式，对于交互编程、数据分析和数据可视化非常有用。
 
-![Jupyter](http://articles.phodal.com/images/documents/Jupyter.png)
+![Jupyter](http://toolbox.phodal.com/images/documents/Jupyter.png)
 
 **安装（使用pip）**
 
@@ -108,7 +108,7 @@ Gitbook
 
 Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇集成起来，生成一个静态网站，也可以输出为PDF等多种格式。
 
-![gitbook](http://articles.phodal.com/images/documents/gitbook.jpg)
+![gitbook](http://toolbox.phodal.com/images/documents/gitbook.jpg)
 
 **安装（使用npm）**
 

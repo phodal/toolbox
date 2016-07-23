@@ -2,7 +2,7 @@
 文档篇
 ===
 
-![Documents](http://articles.phodal.com/images/documents/documents.png)
+![Documents](http://toolbox.phodal.com/images/documents/documents.png)
 
 Pandoc
 ---
@@ -17,7 +17,7 @@ XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Wo
 
 上图
 
-![Pandoc](http://articles.phodal.com/images/documents/pandoc.png)
+![Pandoc](http://toolbox.phodal.com/images/documents/pandoc.png)
 
 我最常用的就是：将md转化为workd及pdf。我的毕业论文及之前的几本电子书都是这么做的，它是一个命令行工具，安装方式：
 
@@ -38,7 +38,7 @@ Graphviz
 
 简单的来说，就是将代码转换为图形:
 
-![Graphviz](http://articles.phodal.com/images/documents/graphviz-example.png)
+![Graphviz](http://toolbox.phodal.com/images/documents/graphviz-example.png)
 
 它让我最惊讶的是DOT语言，简直是以我们平时的用法来定义的。上面的图形的代码类似于这样的：
 
@@ -63,7 +63,7 @@ ImageMagick
 
 还可以加各种效果，如：
 
-![ImageMagick](http://articles.phodal.com/images/documents/gausisan.jpg)
+![ImageMagick](http://toolbox.phodal.com/images/documents/gausisan.jpg)
 
 顺便做个介绍：上面的这个人叫瑞典模特儿莱娜·瑟德贝里，是在刊于1972年11月号《花花公子》杂志上的一张裸体插图照片的一部分。**她的脸部与裸露的肩部已经变成了事实上的工业标准。**
 
@@ -76,11 +76,11 @@ TeX是由是一个由美国计算机教授高德纳（Donald Ervin Knuth）编�
 
 > 高德纳最早开始自行编写TEX的原因是当时十分粗糙的排版水平已经影响到他的巨著《计算机程序设计艺术》的印刷质量。他以典型的黑客思维模式，最终决定自行编写一个排版软件：TEX。他原本以为他只需要半年时间，在1978年下半年就能完成，但最终他用了超过十年时间，直到1989年TEX才最终停止修改。
 
-![计算机程序设计艺术](http://articles.phodal.com/images/documents/aocp.jpg)
+![计算机程序设计艺术](http://toolbox.phodal.com/images/documents/aocp.jpg)
 
 这直接让我想起Martin Fowler在写《领域特定语言》里好像也是用DSL。Tex的最大优点是可以写出下面的这本复杂的公式：
 
-![formular](http://articles.phodal.com/images/documents/formular.jpg)
+![formular](http://toolbox.phodal.com/images/documents/formular.jpg)
 
 LaTeX 建立在 TeX 之上的工具，它在TeX的基础上大大改善了易用性。对了，如果只是一般的用途的话，就没有必要拿去装逼了~。
 
@@ -91,7 +91,7 @@ Jupyter Notebook
 
 Jupyter Notebook使用浏览器作为界面，其前身是Ipython Notebook，Ipython3.0之后新建为Jupyter项目。它支持Markdown、Python语言交互、R语言交互、图形显示、运行时间分析、LaTex公式，对于交互编程、数据分析和数据可视化非常有用。
 
-![Jupyter](http://articles.phodal.com/images/documents/Jupyter.png)
+![Jupyter](http://toolbox.phodal.com/images/documents/Jupyter.png)
 
 **安装（使用pip）**
 
@@ -109,7 +109,7 @@ Gitbook
 
 Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇集成起来，生成一个静态网站，也可以输出为PDF等多种格式。
 
-![gitbook](http://articles.phodal.com/images/documents/gitbook.jpg)
+![gitbook](http://toolbox.phodal.com/images/documents/gitbook.jpg)
 
 **安装（使用npm）**
 
@@ -137,7 +137,7 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 在我的那个“Web Developer 成长路线图”(GitHub: [https://github.com/phodal/developer](https://github.com/phodal/developer))里，就是用这个工具生成下面这个复杂的图形。
 
-![tree.png](http://articles.phodal.com/graphics/tree.png)
+![tree.png](http://toolbox.phodal.com/graphics/tree.png)
 
 而其代码特别简单——和我们平时表达的手法是一样的，即：
 
@@ -156,23 +156,23 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 在Windows世界里，在这一类的工具里面最常见的算是Visio:
 
-![MS-Visio-flowchart.png](http://articles.phodal.com/graphics/MS-Visio-flowchart.png)
+![MS-Visio-flowchart.png](http://toolbox.phodal.com/graphics/MS-Visio-flowchart.png)
 
 遗憾的是，它并不支持在Mac OS上使用。而且，它并不在我购买的Office 365套装里。
 
 在Mac世界里，最好的工具算是OmniGraffle，就是很贵——我们平时使用的是公司的Mac电脑，使用盗版软件是有法律风险的。
 
-![Omnigrafflescreen.jpg](http://articles.phodal.com/graphics/Omnigrafflescreen.jpg)
+![Omnigrafflescreen.jpg](http://toolbox.phodal.com/graphics/Omnigrafflescreen.jpg)
 
 在GNU/Linux世界里，我们使用Dia。
 
 > Dia 是开放源代码的流程图软件，是GNU计划的一部分，程序创立者是Alexander Larsson。Dia使用单一文件界面模式，类似于GIMP与Inkscape。 Dia将多种需求以模块化来设计，如流程图、网络图、电路图等。各模块之间的符号仍是可以通用的，并没有限制。
 
-![dia_screenshot.png](http://articles.phodal.com/graphics/dia_screenshot.png)
+![dia_screenshot.png](http://toolbox.phodal.com/graphics/dia_screenshot.png)
 
 顺便安利一下，我最喜欢的操作系统OpenSuSE——简洁、尾长、绿色。
 
-![opensuse.jpg](http://articles.phodal.com/graphics/opensuse.jpg)
+![opensuse.jpg](http://toolbox.phodal.com/graphics/opensuse.jpg)
 
 OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制造。总的来说，会比Debian系的Debian和Ubunt，及RetHat系的CentOS及Fedora稳定、漂亮。
 
@@ -182,7 +182,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 这个工具还是相当好用，至少是在GxFxW内比较快——我之前使用过Creately、draw.io、Gliffy等等的一些工具，只是随着版图的扩展，很多地区都已经“xx”了。
 
-![tlok.jpg](http://articles.phodal.com/graphics/tlok.jpg)
+![tlok.jpg](http://toolbox.phodal.com/graphics/tlok.jpg)
 
 不过遗憾的是：他们没有给我广告费。
 
@@ -190,7 +190,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 同样的，在我的那个“Developer进阶书单”（GitHub: [https://github.com/phodal/booktree](https://github.com/phodal/booktree))中，就是用这个工具画出规规矩矩的线。
 
-![BookTree.png](http://articles.phodal.com/graphics/BookTree.png)
+![BookTree.png](http://toolbox.phodal.com/graphics/BookTree.png)
 
 并且，它还是跨平台的。
 
@@ -198,15 +198,15 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 由于翻译和写书的需要，我成了一个Office 365订阅用户。于是发现在Word等一系列的Office工具中，自带了一个SmartArt的工具：
 
-![smart-art.png](http://articles.phodal.com/graphics/smart-art.png)
+![smart-art.png](http://toolbox.phodal.com/graphics/smart-art.png)
 
 可以画出很多很有意思的图形，比如：
 
-![编程之路.png](http://articles.phodal.com/graphics/program_road.png)
+![编程之路.png](http://toolbox.phodal.com/graphics/program_road.png)
 
 又或者是：
 
-![growth-lob.png](http://articles.phodal.com/graphics/growth-lob.png)
+![growth-lob.png](http://toolbox.phodal.com/graphics/growth-lob.png)
 
 分分钟就能画一个的节奏。
 
@@ -220,7 +220,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 相比于流程图什么的，它只适合做脑图。
 
-![banner_index.png](http://articles.phodal.com/graphics/banner_index.png)
+![banner_index.png](http://toolbox.phodal.com/graphics/banner_index.png)
 
 如果你还在使用Eclipse，那么你应该试试Intellij IDEA了。
 
@@ -232,7 +232,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 还可以做出一个技能树：
 
-![sherlock.png](http://articles.phodal.com/graphics/sherlock.png)
+![sherlock.png](http://toolbox.phodal.com/graphics/sherlock.png)
 
 这个项目的GitHub见：[https://github.com/phodal/sherlock](https://github.com/phodal/sherlock)
 
@@ -244,7 +244,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 并且，它也是一个可以根据数据（GEOJSON，地理数据）生成图形的工具。
 
-![vmap.jpg](http://articles.phodal.com/graphics/vmap.jpg)
+![vmap.jpg](http://toolbox.phodal.com/graphics/vmap.jpg)
 
 Chrome插件篇
 ===
@@ -254,7 +254,7 @@ Chrome DevTools
 
 在我所用过的这些前端工具里，最常用、实用的就属Chrome自带的DevTools。通常情况下，我们只需要使用这个工具就可以完成大部分的工作了。
 
-![Chrome DevTools](http://articles.phodal.com/images/fe-plugins/dev-tool.jpg)
+![Chrome DevTools](http://toolbox.phodal.com/images/fe-plugins/dev-tool.jpg)
 
 每个前端工程师，都应该好好学习如何去使用Chrome DevTools。当然，这并不是一篇详细的关于Chrome DevTools的介绍——相关的内容足够写一本书了。除了正常的Debug功能，它可以模拟移动设备，模拟网络、模板分辨率、模拟，并在HTTP请求中带上相应的User Agent方便我们调试。
 
@@ -263,7 +263,7 @@ Open SEO Stats
 
 顾名思义这是一个SEO状态查询工具，它可以让我们查看网站的SEO相关信息。也是一个非常棒的反诈骗软件，因为一个好的网站的Alexa Traffic Rank、PR以及Pages indexed（索引数）等等都会相对较高。
 
-![Open SEO Stats](http://articles.phodal.com/images/fe-plugins/seo-stats.jpg)
+![Open SEO Stats](http://toolbox.phodal.com/images/fe-plugins/seo-stats.jpg)
 
 除了基本的SEO状态显示，它还提供了一些有效的工具，来帮助我们优化页面的SEO。如在Page Info里，会罗列出页面的相关标签是否完整。在Links Stats里，会帮我们检查页面的外链情况等等。
 
@@ -274,7 +274,7 @@ PageSpeed Insights
 
 如下就是我博客的一个分析结果：
 
-![PageSpeed Insights](http://articles.phodal.com/images/fe-plugins/pagespeed.jpg)
+![PageSpeed Insights](http://toolbox.phodal.com/images/fe-plugins/pagespeed.jpg)
 
 总体分数98分，看来我针对这个所说的东西进行优化的效果还不错。左边显示了我博客存在的一些问题，如：
 
@@ -334,7 +334,7 @@ Postman
 
 我相信这个软件，搞过Web开发的人都听过。
 
-![Chrome Postman](http://articles.phodal.com/images/fe-plugins/postman.jpg)
+![Chrome Postman](http://toolbox.phodal.com/images/fe-plugins/postman.jpg)
 
 同样的，你仍然可以使用命令行工具来测试它。
 
@@ -343,12 +343,12 @@ Postman
 XPath Helper
 ---
 
-![XPath Helper](http://articles.phodal.com/images/fe-plugins/xpath.jpg)
+![XPath Helper](http://toolbox.phodal.com/images/fe-plugins/xpath.jpg)
 
 ObservePoint Tag Debugger
 ---
 
-![ObservePoint Tag Debugger](http://articles.phodal.com/images/fe-plugins/observerPoint.jpg)
+![ObservePoint Tag Debugger](http://toolbox.phodal.com/images/fe-plugins/observerPoint.jpg)
 Capture Webpage Screenshot Entirely
 ---
 
@@ -358,7 +358,7 @@ Capture Webpage Screenshot Entirely
 自定义按钮的鼠标
 ---
 
-![Steelseries](http://articles.phodal.com/images/devices/steelseries.jpg)
+![Steelseries](http://toolbox.phodal.com/images/devices/steelseries.jpg)
 
 厚的鼠标垫
 ---
