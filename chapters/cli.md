@@ -22,7 +22,7 @@ chapters
 sl
 ---
 
-![SL](./images/cli/sl-tool.jpg)
+![SL](http://toolbox.phodal.com/images/cli/sl-tool.jpg)
 
 curl
 ---

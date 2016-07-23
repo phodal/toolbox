@@ -137,7 +137,7 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 在我的那个“Web Developer 成长路线图”(GitHub: [https://github.com/phodal/developer](https://github.com/phodal/developer))里，就是用这个工具生成下面这个复杂的图形。
 
-![tree.png](http://toolbox.phodal.com/graphics/tree.png)
+![tree.png](http://toolbox.phodal.com/images/graphics/tree.png)
 
 而其代码特别简单——和我们平时表达的手法是一样的，即：
 
@@ -156,23 +156,23 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 在Windows世界里，在这一类的工具里面最常见的算是Visio:
 
-![MS-Visio-flowchart.png](http://toolbox.phodal.com/graphics/MS-Visio-flowchart.png)
+![MS-Visio-flowchart.png](http://toolbox.phodal.com/images/graphics/MS-Visio-flowchart.png)
 
 遗憾的是，它并不支持在Mac OS上使用。而且，它并不在我购买的Office 365套装里。
 
 在Mac世界里，最好的工具算是OmniGraffle，就是很贵——我们平时使用的是公司的Mac电脑，使用盗版软件是有法律风险的。
 
-![Omnigrafflescreen.jpg](http://toolbox.phodal.com/graphics/Omnigrafflescreen.jpg)
+![Omnigrafflescreen.jpg](http://toolbox.phodal.com/images/graphics/Omnigrafflescreen.jpg)
 
 在GNU/Linux世界里，我们使用Dia。
 
 > Dia 是开放源代码的流程图软件，是GNU计划的一部分，程序创立者是Alexander Larsson。Dia使用单一文件界面模式，类似于GIMP与Inkscape。 Dia将多种需求以模块化来设计，如流程图、网络图、电路图等。各模块之间的符号仍是可以通用的，并没有限制。
 
-![dia_screenshot.png](http://toolbox.phodal.com/graphics/dia_screenshot.png)
+![dia_screenshot.png](http://toolbox.phodal.com/images/graphics/dia_screenshot.png)
 
 顺便安利一下，我最喜欢的操作系统OpenSuSE——简洁、尾长、绿色。
 
-![opensuse.jpg](http://toolbox.phodal.com/graphics/opensuse.jpg)
+![opensuse.jpg](http://toolbox.phodal.com/images/graphics/opensuse.jpg)
 
 OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制造。总的来说，会比Debian系的Debian和Ubunt，及RetHat系的CentOS及Fedora稳定、漂亮。
 
@@ -182,7 +182,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 这个工具还是相当好用，至少是在GxFxW内比较快——我之前使用过Creately、draw.io、Gliffy等等的一些工具，只是随着版图的扩展，很多地区都已经“xx”了。
 
-![tlok.jpg](http://toolbox.phodal.com/graphics/tlok.jpg)
+![tlok.jpg](http://toolbox.phodal.com/images/graphics/tlok.jpg)
 
 不过遗憾的是：他们没有给我广告费。
 
@@ -190,7 +190,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 同样的，在我的那个“Developer进阶书单”（GitHub: [https://github.com/phodal/booktree](https://github.com/phodal/booktree))中，就是用这个工具画出规规矩矩的线。
 
-![BookTree.png](http://toolbox.phodal.com/graphics/BookTree.png)
+![BookTree.png](http://toolbox.phodal.com/images/graphics/BookTree.png)
 
 并且，它还是跨平台的。
 
@@ -198,15 +198,15 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 由于翻译和写书的需要，我成了一个Office 365订阅用户。于是发现在Word等一系列的Office工具中，自带了一个SmartArt的工具：
 
-![smart-art.png](http://toolbox.phodal.com/graphics/smart-art.png)
+![smart-art.png](http://toolbox.phodal.com/images/graphics/smart-art.png)
 
 可以画出很多很有意思的图形，比如：
 
-![编程之路.png](http://toolbox.phodal.com/graphics/program_road.png)
+![编程之路.png](http://toolbox.phodal.com/images/graphics/program_road.png)
 
 又或者是：
 
-![growth-lob.png](http://toolbox.phodal.com/graphics/growth-lob.png)
+![growth-lob.png](http://toolbox.phodal.com/images/graphics/growth-lob.png)
 
 分分钟就能画一个的节奏。
 
@@ -220,7 +220,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 相比于流程图什么的，它只适合做脑图。
 
-![banner_index.png](http://toolbox.phodal.com/graphics/banner_index.png)
+![banner_index.png](http://toolbox.phodal.com/images/graphics/banner_index.png)
 
 如果你还在使用Eclipse，那么你应该试试Intellij IDEA了。
 
@@ -232,7 +232,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 还可以做出一个技能树：
 
-![sherlock.png](http://toolbox.phodal.com/graphics/sherlock.png)
+![sherlock.png](http://toolbox.phodal.com/images/graphics/sherlock.png)
 
 这个项目的GitHub见：[https://github.com/phodal/sherlock](https://github.com/phodal/sherlock)
 
@@ -244,7 +244,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 并且，它也是一个可以根据数据（GEOJSON，地理数据）生成图形的工具。
 
-![vmap.jpg](http://toolbox.phodal.com/graphics/vmap.jpg)
+![vmap.jpg](http://toolbox.phodal.com/images/graphics/vmap.jpg)
 
 Chrome插件篇
 ===
@@ -455,7 +455,7 @@ chapters
 sl
 ---
 
-![SL](./images/cli/sl-tool.jpg)
+![SL](http://toolbox.phodal.com/images/cli/sl-tool.jpg)
 
 curl
 ---
