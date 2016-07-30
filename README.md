@@ -2,7 +2,7 @@
 
  - [文档篇](./chapters/documents.md)
  - [图形工具篇](./chapters/graphics.md)
- - [Chrome插件 前端工具篇](./chapters/fe-plugins.md)
+ - [Chrome插件 前端工具篇](./chapters/chrome-plugins.md)
  - [Ops](./chapters/ops.md)
  - 微服务篇
  - 前端工具篇
