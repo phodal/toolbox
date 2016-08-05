@@ -88,18 +88,29 @@ Postman
 
 ![Chrome Postman](http://toolbox.phodal.com/images/fe-plugins/postman.jpg)
 
-同样的，你仍然可以使用命令行工具来测试它。
+它是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。总之，就是我们可以在浏览器上执行GET、POST等等的测试。在调试远程API的时候很有用，一般在调试本地API的时候，我都是用jQuery的。
 
-[Newman](https://github.com/postmanlabs/newman)
+同样的，你仍然可以使用命令行工具来测试它，即[Newman](https://github.com/postmanlabs/newman)。由于其没有UI，它可以运行在CI上，并编写相应的UI测试。
 
 XPath Helper
 ---
 
+这是我在写UI自动化测试的时候使用的工具，由于那是一个遗留项目，所以我们都对整体UI的布局都不是特别熟悉。并且由于业务推进的关系，我们并没有足够的时候去解决这个问题，于是就开始使用这个工具来完成工作了。
+
+在编写的时候我们会在Console用jQuery去选定元素，然后再将其转换为XPath。接着在这个工具上尝试，如下图显示：
+
 ![XPath Helper](http://toolbox.phodal.com/images/fe-plugins/xpath.jpg)
+
+最后，我们将会写到代码中。
 
 ObservePoint Tag Debugger
 ---
 
+这是一个可以用于调试各种Web分析工具的插件，它可以用于分析SiteCat、Google Analytics、WebTrend等发出的事件请求，并解析其数据。
+
 ![ObservePoint Tag Debugger](http://toolbox.phodal.com/images/fe-plugins/observerPoint.jpg)
+
 Capture Webpage Screenshot Entirely
 ---
+
+这是一个截图工具，可以用于截取页面长图。
