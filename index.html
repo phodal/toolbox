@@ -44,6 +44,7 @@
 <li><a href="#postman">Postman</a></li>
 <li><a href="#xpath-helper">XPath Helper</a></li>
 <li><a href="#observepoint-tag-debugger">ObservePoint Tag Debugger</a></li>
+<li><a href="#capture-webpage-screenshot-entirely">Capture Webpage Screenshot Entirely</a></li>
 </ul></li>
 <li><a href="#外设篇">外设篇</a><ul>
 <li><a href="#自定义按钮的鼠标">自定义按钮的鼠标</a></li>
@@ -82,7 +83,7 @@
 <li><a href="#curl">curl</a></li>
 </ul></li>
 <li><a href="#backend">Backend</a><ul>
-<li><a href="#spring">Spring</a></li>
+<li><a href="#spring-mvc">Spring MVC</a></li>
 <li><a href="#spring-boot">Spring Boot</a></li>
 <li><a href="#laravel">Laravel</a></li>
 <li><a href="#django">Django</a></li>
@@ -151,9 +152,6 @@
 <blockquote>
 <p>高德纳最早开始自行编写TEX的原因是当时十分粗糙的排版水平已经影响到他的巨著《计算机程序设计艺术》的印刷质量。他以典型的黑客思维模式，最终决定自行编写一个排版软件：TEX。他原本以为他只需要半年时间，在1978年下半年就能完成，但最终他用了超过十年时间，直到1989年TEX才最终停止修改。</p>
 </blockquote>
-<figure>
-<img src="http://toolbox.phodal.com/images/documents/aocp.jpg" alt="计算机程序设计艺术" /><figcaption>计算机程序设计艺术</figcaption>
-</figure>
 <p>这直接让我想起Martin Fowler在写《领域特定语言》里好像也是用DSL。Tex的最大优点是可以写出下面的这本复杂的公式：</p>
 <figure>
 <img src="http://toolbox.phodal.com/images/documents/formular.jpg" alt="formular" /><figcaption>formular</figcaption>
@@ -343,14 +341,22 @@ Main resource server response time         | %</code></pre>
 <figure>
 <img src="http://toolbox.phodal.com/images/fe-plugins/postman.jpg" alt="Chrome Postman" /><figcaption>Chrome Postman</figcaption>
 </figure>
-<p>同样的，你仍然可以使用命令行工具来测试它。</p>
-<p><a href="https://github.com/postmanlabs/newman">Newman</a></p>
+<p>它是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。总之，就是我们可以在浏览器上执行GET、POST等等的测试。在调试远程API的时候很有用，一般在调试本地API的时候，我都是用jQuery的。</p>
+<p>同样的，你仍然可以使用命令行工具来测试它，即<a href="https://github.com/postmanlabs/newman">Newman</a>。由于其没有UI，它可以运行在CI上，并编写相应的UI测试。</p>
 <h2 id="xpath-helper">XPath Helper</h2>
+<p>这是我在写UI自动化测试的时候使用的工具，由于那是一个遗留项目，所以我们都对整体UI的布局都不是特别熟悉。并且由于业务推进的关系，我们并没有足够的时候去解决这个问题，于是就开始使用这个工具来完成工作了。</p>
+<p>在编写的时候我们会在Console用jQuery去选定元素，然后再将其转换为XPath。接着在这个工具上尝试，如下图显示：</p>
 <figure>
 <img src="http://toolbox.phodal.com/images/fe-plugins/xpath.jpg" alt="XPath Helper" /><figcaption>XPath Helper</figcaption>
 </figure>
+<p>最后，我们将会写到代码中。</p>
 <h2 id="observepoint-tag-debugger">ObservePoint Tag Debugger</h2>
-<p><img src="http://toolbox.phodal.com/images/fe-plugins/observerPoint.jpg" alt="ObservePoint Tag Debugger" /> Capture Webpage Screenshot Entirely —</p>
+<p>这是一个可以用于调试各种Web分析工具的插件，它可以用于分析SiteCat、Google Analytics、WebTrend等发出的事件请求，并解析其数据。</p>
+<figure>
+<img src="http://toolbox.phodal.com/images/fe-plugins/observerPoint.jpg" alt="ObservePoint Tag Debugger" /><figcaption>ObservePoint Tag Debugger</figcaption>
+</figure>
+<h2 id="capture-webpage-screenshot-entirely">Capture Webpage Screenshot Entirely</h2>
+<p>这是一个截图工具，可以用于截取页面长图。</p>
 <h1 id="外设篇">外设篇</h1>
 <h2 id="自定义按钮的鼠标">自定义按钮的鼠标</h2>
 <figure>
@@ -413,7 +419,7 @@ X-Page-Speed: Powered By Phodal
 Cache-Control: max-age=0, no-cache</code></pre>
 <pre class="shell"><code>curl --data &quot;_method=PUT&amp;led1=1&amp;sensors1=22&amp;sensors2=12&amp;temperature=14&quot; http://b.phodal.com/athome/1</code></pre>
 <h1 id="backend">Backend</h1>
-<h2 id="spring">Spring</h2>
+<h2 id="spring-mvc">Spring MVC</h2>
 <h2 id="spring-boot">Spring Boot</h2>
 <h2 id="laravel">Laravel</h2>
 <h2 id="django">Django</h2>

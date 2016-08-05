@@ -75,8 +75,6 @@ TeX是由是一个由美国计算机教授高德纳（Donald Ervin Knuth）编�
 
 > 高德纳最早开始自行编写TEX的原因是当时十分粗糙的排版水平已经影响到他的巨著《计算机程序设计艺术》的印刷质量。他以典型的黑客思维模式，最终决定自行编写一个排版软件：TEX。他原本以为他只需要半年时间，在1978年下半年就能完成，但最终他用了超过十年时间，直到1989年TEX才最终停止修改。
 
-![计算机程序设计艺术](http://toolbox.phodal.com/images/documents/aocp.jpg)
-
 这直接让我想起Martin Fowler在写《领域特定语言》里好像也是用DSL。Tex的最大优点是可以写出下面的这本复杂的公式：
 
 ![formular](http://toolbox.phodal.com/images/documents/formular.jpg)
