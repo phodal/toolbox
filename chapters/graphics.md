@@ -40,6 +40,7 @@
 
 ![Omnigrafflescreen.jpg](http://toolbox.phodal.com/images/graphics/omnigraffle.jpg)
 
+
 在GNU/Linux世界里，我们使用Dia。
 
 > Dia 是开放源代码的流程图软件，是GNU计划的一部分，程序创立者是Alexander Larsson。Dia使用单一文件界面模式，类似于GIMP与Inkscape。 Dia将多种需求以模块化来设计，如流程图、网络图、电路图等。各模块之间的符号仍是可以通用的，并没有限制。
