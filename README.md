@@ -1,5 +1,7 @@
 # 一个全栈工程师的工具箱
 
+A Part of [Growth Plan](https://github.com/phodal/growth).
+
  - [文档篇](./chapters/documents.md)
  - [图形工具篇](./chapters/graphics.md)
  - [Chrome插件 前端工具篇](./chapters/chrome-plugins.md)
