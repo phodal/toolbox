@@ -368,18 +368,28 @@ Capture Webpage Screenshot Entirely
 自定义按钮的鼠标
 ---
 
+对于程序员来说，复制和粘贴是很常用的操作，如果我们有一个对应的自定义按钮的鼠标的话，我们就可以光用鼠标来进行复制和粘贴了。
+
 ![Steelseries](http://toolbox.phodal.com/images/devices/steelseries.jpg)
 
-厚的鼠标垫
+厚的软鼠标垫
 ---
+
+
 
 机械键盘
 ---
 
+地球人都知道，我就不说了。
+
 机械键盘手托
 ---
 
-游戏鼠标线夹
+很多人光有个机械键盘，但是却没有一个与之对应的手托，我觉得还是有些可惜的。机械键盘都有着相当高的高度，这时手放上去就有些尴尬。
+
+![机械键盘手托](http://toolbox.phodal.com/images/devices/shoutuo.jpeg)
+
+鼠标线夹
 ---
 
 笔记本支架折叠
@@ -391,7 +401,7 @@ Capture Webpage Screenshot Entirely
 Kindle
 ---
 
-DevOps
+Ops
 ======
 
 Nginx Pagespeed
@@ -412,10 +422,81 @@ Nginx Pagespeed
 Boom
 ---
 
+Boom是一个用Go语言实现的压力测试工具，就是和Apache Bench类似的工具。它提供了一个很有意思的UI，这就是我为什么推荐他的原因了：
+
+```
+1000 / 1000 Boooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo! 100.00 %
+
+Summary:
+  Total:    1.9052 secs.
+  Slowest:  0.2054 secs.
+  Fastest:  0.0111 secs.
+  Average:  0.1817 secs.
+  Requests/sec: 524.8813
+  Total Data Received:  5459000 bytes.
+  Response Size per Request:    5459 bytes.
+
+Status code distribution:
+  [200] 1000 responses
+
+Response time histogram:
+  0.011 [1] |
+  0.031 [10]    |
+  0.050 [10]    |
+  0.069 [11]    |
+  0.089 [11]    |
+  0.108 [10]    |
+  0.128 [11]    |
+  0.147 [11]    |
+  0.167 [11]    |
+  0.186 [295]   |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.205 [619]   |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.1764 secs.
+  25% in 0.1841 secs.
+  50% in 0.1892 secs.
+  75% in 0.1942 secs.
+  90% in 0.2011 secs.
+  95% in 0.2024 secs.
+  99% in 0.2038 secs.
+```  
+
 GoAccess
 ---
 
 > GoAccess是一款开源、实时，运行在命令行终端下的web日志分析工具。该工具提供快速、多样的HTTP状态统计，可以令管理员不再纠结于统计各类数据，和繁杂的指令以及一大堆管道/正则表达式说byebye。
+
+这生成的风格是这样的：
+
+![GoAccess](http://toolbox.phodal.com/images/ops/goaccess-dashboard.png)
+
+
+它可以轻松统计出访问概况、动态页面请求、静态页面请求（如图片、样式表、脚本等）、访客排名，访客使用的操作系统，访客使用的浏览器，来路域名，404 错误，搜索爬虫，搜索关键词等等。
+
+而，我们所要做的只需要运行：
+
+```shell
+goaccess -f access.log
+```
+
+Fabric
+---
+
+因为我的博客是基于Django框架而开发的，我偏向于使用Python作为开发语言，所以我需要选择了Fabric作为运维工具。
+
+
+> Fabric 是一个 Python (2.5-2.7) 库和命令行工具，用来流水线化执行 SSH以部署应用或系统管理任务。
+
+更具体地说，Fabric 是：
+
+ - 一个让你通过 命令行 执行 任意 Python 函数 的工具；
+ - 一个让通过 SSH 执行 Shell 命令更加 容易 和 蟒样 的子程序库（建立于一个更低层次的库）。
+
+Docker
+---
+
+> Docker是一个开源的引擎，可以轻松的为任何应用创建一个轻量级的、可移植的、自给自足的容器。
 
 
 硬件篇
@@ -431,13 +512,12 @@ Arduino
 
 > Arduino，是一个开放源代码的单芯片微控制器，它使用了Atmel AVR单片机，采用了开放源代码的软硬件平台，建构于简易输出/输入（simple I/O）界面板，并且具有使用类似Java、C语言的Processing/Wiring开发环境。
 
-### Arduino Yun
+我拥有下面的一些开发板：
 
-### Arduino Uno
-
-### Arduino ADK
-
-### Arduino Lilypad
+ - Arduino Yun
+ - Arduino Uno
+ - Arduino ADK
+ - Arduino Lilypad
 
 NodeMCU
 ---
@@ -449,22 +529,29 @@ NodeMCU
 API
 ===
 
-
-Postman
----
-
 Moco
 ---
+
+> Moco是一个简单搭建模拟服务器的程序库/工具，它是一个简单搭建 stub 的框架，主要用于测试和集成。
+
+这个工具的目的主要是针对于前后端分离的Web应用来说，特别是基于HTTP协议的集成——Web Service、REST等。
+
+不过如果你们不写测试的话，这个工具就没啥用。
 
 Swagger
 ---
 
+> Swagger是一种和语言无关的规范和框架，用于定义服务接口，主要用于描述RESTful的API。它专注于为API创建优秀的文档和客户端库。支持Swagger的API可以为API方法生成交互式的文档，让用户可以通过以可视化的方式试验，查看请求和响应、头文件和返回代码，从而发现API的功能。它本身就非常强大，但是Swagger框架还支持为多种流行的语言——包括JavaScript、Python、Ruby、Java、Scala等等——生成客户端代码。
 
 CLI
 ===
 
 tree
 ---
+
+> tree命令可以以树形结构显示文件目录结构，它非常适合于我们给别人介绍我们的文件目录的组成框架，同时该命令使用适当的参数也可以将命令结果输出到文本文件中。
+
+这个命令非常适用于我们写作的时候用的，如下就是toolbox下的chapters目录：
 
 ```shell
 chapters
@@ -484,10 +571,16 @@ chapters
 sl
 ---
 
+这是一个神奇的命令行工具，由于两个手的手速不致，我经常将ls敲成sl。而在Ubuntu上则会提示你，你是不是要安装sl，于是我就安装了。然后：
+
 ![SL](http://toolbox.phodal.com/images/cli/sl-tool.jpg)
 
-curl
+每次我敲错命令的时候，都会有这个神奇的火车头出现，火车头动的期间就只能等它完成。每次这个时候，就说明我们需要休息。
+
+cURL
 ---
+
+cURL利用URL语法在命令行方式下工作的开源文件传输工具。它是一个很常用的命令，也可以支持文件上传和下载。
 
 ``` shell
 curl -I -s -A 'Googlebot' www.phodal.com
@@ -557,3 +650,7 @@ Octave
 
 Numpy
 ---
+
+> NumPy是Python语言的一个扩充程序库。支持高级大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。NumPy的前身Numeric最早是由Jim Hugunin与其它协作者共同开发，2005年，Travis Oliphant在Numeric中结合了另一个同性质的程序库Numarray的特色，并加入了其它扩展而开发了NumPy。NumPy为开放源代码并且由许多协作者共同维护开发。
+
+
