@@ -1,4 +1,4 @@
-DevOps
+Ops
 ======
 
 Nginx Pagespeed
@@ -19,8 +19,79 @@ Nginx Pagespeed
 Boom
 ---
 
+Boom是一个用Go语言实现的压力测试工具，就是和Apache Bench类似的工具。它提供了一个很有意思的UI，这就是我为什么推荐他的原因了：
+
+```
+1000 / 1000 Boooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo! 100.00 %
+
+Summary:
+  Total:    1.9052 secs.
+  Slowest:  0.2054 secs.
+  Fastest:  0.0111 secs.
+  Average:  0.1817 secs.
+  Requests/sec: 524.8813
+  Total Data Received:  5459000 bytes.
+  Response Size per Request:    5459 bytes.
+
+Status code distribution:
+  [200] 1000 responses
+
+Response time histogram:
+  0.011 [1] |
+  0.031 [10]    |
+  0.050 [10]    |
+  0.069 [11]    |
+  0.089 [11]    |
+  0.108 [10]    |
+  0.128 [11]    |
+  0.147 [11]    |
+  0.167 [11]    |
+  0.186 [295]   |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.205 [619]   |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10% in 0.1764 secs.
+  25% in 0.1841 secs.
+  50% in 0.1892 secs.
+  75% in 0.1942 secs.
+  90% in 0.2011 secs.
+  95% in 0.2024 secs.
+  99% in 0.2038 secs.
+```  
+
 GoAccess
 ---
 
 > GoAccess是一款开源、实时，运行在命令行终端下的web日志分析工具。该工具提供快速、多样的HTTP状态统计，可以令管理员不再纠结于统计各类数据，和繁杂的指令以及一大堆管道/正则表达式说byebye。
+
+这生成的风格是这样的：
+
+![GoAccess](http://toolbox.phodal.com/images/ops/goaccess-dashboard.png)
+
+
+它可以轻松统计出访问概况、动态页面请求、静态页面请求（如图片、样式表、脚本等）、访客排名，访客使用的操作系统，访客使用的浏览器，来路域名，404 错误，搜索爬虫，搜索关键词等等。
+
+而，我们所要做的只需要运行：
+
+```shell
+goaccess -f access.log
+```
+
+Fabric
+---
+
+因为我的博客是基于Django框架而开发的，我偏向于使用Python作为开发语言，所以我需要选择了Fabric作为运维工具。
+
+
+> Fabric 是一个 Python (2.5-2.7) 库和命令行工具，用来流水线化执行 SSH以部署应用或系统管理任务。
+
+更具体地说，Fabric 是：
+
+ - 一个让你通过 命令行 执行 任意 Python 函数 的工具；
+ - 一个让通过 SSH 执行 Shell 命令更加 容易 和 蟒样 的子程序库（建立于一个更低层次的库）。
+
+Docker
+---
+
+> Docker是一个开源的引擎，可以轻松的为任何应用创建一个轻量级的、可移植的、自给自足的容器。
 
