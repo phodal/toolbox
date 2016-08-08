@@ -520,10 +520,10 @@ Arduino
 
 我拥有下面的一些开发板：
 
- - Arduino Yun
- - Arduino Uno
- - Arduino ADK
- - Arduino Lilypad
+ - Arduino Uno，玩过都知道。通用版，可以使用一系列强大的扩展板。
+ - Arduino Yun，带WiFi功能的Arduino。
+ - Arduino ADK，可以使不支持USB Host功能的Android设备也可以和其它USB设备
+ - Arduino Lilypad，主要用于可穿戴领域。
 
 NodeMCU
 ---
