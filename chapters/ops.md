@@ -95,3 +95,10 @@ Docker
 
 > Docker是一个开源的引擎，可以轻松的为任何应用创建一个轻量级的、可移植的、自给自足的容器。
 
+Jenkins
+---
+
+> Jenkins是一个用Java编写的开源的持续集成工具。Jenkins提供了软件开发的持续集成服务。它运行在Servlet容器中（例如Apache Tomcat）。它支持软件配置管理（SCM）工具，可以执行基于Apache Ant和Apache Maven的项目，以及任意的Shell脚本和Windows批处理命令。
+
+除了将Jenkins有于持续集成环境外，我们还可以使用Jenkins来完成一些自动化的部署工作。
+
