@@ -111,7 +111,7 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 **安装（使用npm）**
 
-    $ npm install gitbook -g
+    $ npm install gitbook-cli -g
 
 **使用**
 
